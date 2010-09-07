@@ -3,35 +3,75 @@
 <plist version="1.0">
 <dict>
 	<key>EmbeddedEditorHidden:shooley</key>
-	<false/>
+	<true/>
 	<key>ExpandedEditorWidth:shooley:displays([(0, 0), (1680, 1050)]:[(1680, 0), (1680, 1050)])</key>
-	<integer>640</integer>
+	<integer>523</integer>
 	<key>ExpandedItems:shooley</key>
-	<array/>
-	<key>FileFilterID:shooley</key>
-	<string>msng</string>
-	<key>OpenDocuments:shooley</key>
 	<array>
+		<string>7D0C9A0B-0A10-48D2-9A88-35A626FE8CF7</string>
 		<dict>
 			<key>AliasData</key>
 			<data>
-			AAAAAAG0AAIAAAhIb29EaXNrMQAAAAAAAAAAAAAAAAAAAAAAAADH
-			MZTASCsAAABVTLcMR2VtZmlsZS5sb2NrAAAAAAAAAAAAAAAAAAAA
-			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFVT
-			9sisBTgAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAADXNw
-			ZW5kX3RyYWNrZXIAABAACAAAxzGUwAAAABEACAAAyKv3KAAAAAEA
-			GABVTLcAIwcDAA3i5AANzlsADWaZAA1jeQACAEpIb29EaXNrMTpV
+			AAAAAAGyAAIAAQhIb29EaXNrMQAAAAAAAAAAAAAAAAAAAAAAAADH
+			MZTASCsAAABVTL0LY29udHJvbGxlcnMAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFVM
+			vsir/wsAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAAA2Fw
+			cAAAEAAIAADHMZTAAAAAEQAIAADIq/D7AAAAAQAcAFVMvQBVTLcA
+			IwcDAA3i5AANzlsADWaZAA1jeQACAE1Ib29EaXNrMTpVc2Vyczpz
+			aG9vbGV5OkRlc2t0b3A6UHJvZ3JhbW1pbmc6UnVieTpzcGVuZF90
+			cmFja2VyOmFwcDpjb250cm9sbGVycwAADgAYAAsAYwBvAG4AdABy
+			AG8AbABsAGUAcgBzAA8AEgAIAEgAbwBvAEQAaQBzAGsAMQASAERV
+			c2Vycy9zaG9vbGV5L0Rlc2t0b3AvUHJvZ3JhbW1pbmcvUnVieS9z
+			cGVuZF90cmFja2VyL2FwcC9jb250cm9sbGVycwATAAEvAAAVAAIA
+			Dv//AAA=
+			</data>
+			<key>FileURL</key>
+			<string>file://localhost/Users/shooley/Desktop/Programming/Ruby/spend_tracker/app/controllers/</string>
+			<key>TypeID</key>
+			<string>_CFileLocator</string>
+			<key>Version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>AliasData</key>
+			<data>
+			AAAAAAGaAAIAAQhIb29EaXNrMQAAAAAAAAAAAAAAAAAAAAAAAADH
+			MZTASCsAAABVTL0Fdmlld3MAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFVM
+			wsir/wsAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAAA2Fw
+			cAAAEAAIAADHMZTAAAAAEQAIAADIq/D7AAAAAQAcAFVMvQBVTLcA
+			IwcDAA3i5AANzlsADWaZAA1jeQACAEdIb29EaXNrMTpVc2Vyczpz
+			aG9vbGV5OkRlc2t0b3A6UHJvZ3JhbW1pbmc6UnVieTpzcGVuZF90
+			cmFja2VyOmFwcDp2aWV3cwAADgAMAAUAdgBpAGUAdwBzAA8AEgAI
+			AEgAbwBvAEQAaQBzAGsAMQASAD5Vc2Vycy9zaG9vbGV5L0Rlc2t0
+			b3AvUHJvZ3JhbW1pbmcvUnVieS9zcGVuZF90cmFja2VyL2FwcC92
+			aWV3cwATAAEvAAAVAAIADv//AAA=
+			</data>
+			<key>FileURL</key>
+			<string>file://localhost/Users/shooley/Desktop/Programming/Ruby/spend_tracker/app/views/</string>
+			<key>TypeID</key>
+			<string>_CFileLocator</string>
+			<key>Version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>AliasData</key>
+			<data>
+			AAAAAAG0AAIAAQhIb29EaXNrMQAAAAAAAAAAAAAAAAAAAAAAAADH
+			MZTASCsAAABVTMIHbGF5b3V0cwAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFVM
+			w8ir/wsAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAABXZp
+			ZXdzAAAQAAgAAMcxlMAAAAARAAgAAMir8PsAAAABACAAVUzCAFVM
+			vQBVTLcAIwcDAA3i5AANzlsADWaZAA1jeQACAE9Ib29EaXNrMTpV
 			c2VyczpzaG9vbGV5OkRlc2t0b3A6UHJvZ3JhbW1pbmc6UnVieTpz
-			cGVuZF90cmFja2VyOkdlbWZpbGUubG9jawAOABoADABHAGUAbQBm
-			AGkAbABlAC4AbABvAGMAawAPABIACABIAG8AbwBEAGkAcwBrADEA
-			EgBBVXNlcnMvc2hvb2xleS9EZXNrdG9wL1Byb2dyYW1taW5nL1J1
-			Ynkvc3BlbmRfdHJhY2tlci9HZW1maWxlLmxvY2sAABMAAS8AABUA
+			cGVuZF90cmFja2VyOmFwcDp2aWV3czpsYXlvdXRzAAAOABAABwBs
+			AGEAeQBvAHUAdABzAA8AEgAIAEgAbwBvAEQAaQBzAGsAMQASAEZV
+			c2Vycy9zaG9vbGV5L0Rlc2t0b3AvUHJvZ3JhbW1pbmcvUnVieS9z
+			cGVuZF90cmFja2VyL2FwcC92aWV3cy9sYXlvdXRzABMAAS8AABUA
 			AgAO//8AAA==
 			</data>
 			<key>FileURL</key>
-			<string>file://localhost/Users/shooley/Desktop/Programming/Ruby/spend_tracker/Gemfile.lock</string>
-			<key>RelativePath</key>
-			<string>./Gemfile.lock</string>
+			<string>file://localhost/Users/shooley/Desktop/Programming/Ruby/spend_tracker/app/views/layouts/</string>
 			<key>TypeID</key>
 			<string>_CFileLocator</string>
 			<key>Version</key>
@@ -40,22 +80,21 @@
 		<dict>
 			<key>AliasData</key>
 			<data>
-			AAAAAAGkAAIAAAhIb29EaXNrMQAAAAAAAAAAAAAAAAAAAAAAAADH
-			MZTASCsAAABVTLcIUmFrZWZpbGUAAAAAAAAAAAAAAAAAAAAAAAAA
-			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFVT
-			+MisBTgAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAADXNw
-			ZW5kX3RyYWNrZXIAABAACAAAxzGUwAAAABEACAAAyKv3KAAAAAEA
-			GABVTLcAIwcDAA3i5AANzlsADWaZAA1jeQACAEZIb29EaXNrMTpV
+			AAAAAAHIAAIAAQhIb29EaXNrMQAAAAAAAAAAAAAAAAAAAAAAAADH
+			MZTASCsAAABVTMIMc3RhdGljX3BhZ2VzAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFVs
+			psisFpAAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAABXZp
+			ZXdzAAAQAAgAAMcxlMAAAAARAAgAAMisCIAAAAABACAAVUzCAFVM
+			vQBVTLcAIwcDAA3i5AANzlsADWaZAA1jeQACAFRIb29EaXNrMTpV
 			c2VyczpzaG9vbGV5OkRlc2t0b3A6UHJvZ3JhbW1pbmc6UnVieTpz
-			cGVuZF90cmFja2VyOlJha2VmaWxlAA4AEgAIAFIAYQBrAGUAZgBp
-			AGwAZQAPABIACABIAG8AbwBEAGkAcwBrADEAEgA9VXNlcnMvc2hv
-			b2xleS9EZXNrdG9wL1Byb2dyYW1taW5nL1J1Ynkvc3BlbmRfdHJh
-			Y2tlci9SYWtlZmlsZQAAEwABLwAAFQACAA7//wAA
+			cGVuZF90cmFja2VyOmFwcDp2aWV3czpzdGF0aWNfcGFnZXMADgAa
+			AAwAcwB0AGEAdABpAGMAXwBwAGEAZwBlAHMADwASAAgASABvAG8A
+			RABpAHMAawAxABIAS1VzZXJzL3Nob29sZXkvRGVza3RvcC9Qcm9n
+			cmFtbWluZy9SdWJ5L3NwZW5kX3RyYWNrZXIvYXBwL3ZpZXdzL3N0
+			YXRpY19wYWdlcwAAEwABLwAAFQACAA7//wAA
 			</data>
 			<key>FileURL</key>
-			<string>file://localhost/Users/shooley/Desktop/Programming/Ruby/spend_tracker/Rakefile</string>
-			<key>RelativePath</key>
-			<string>./Rakefile</string>
+			<string>file://localhost/Users/shooley/Desktop/Programming/Ruby/spend_tracker/app/views/static_pages/</string>
 			<key>TypeID</key>
 			<string>_CFileLocator</string>
 			<key>Version</key>
@@ -64,38 +103,65 @@
 		<dict>
 			<key>AliasData</key>
 			<data>
-			AAAAAAHAAAIAAAhIb29EaXNrMQAAAAAAAAAAAAAAAAAAAAAAAADH
-			MZTASCsAAABVTLcPUkVBRE1FLm1hcmtkb3duAAAAAAAAAAAAAAAA
-			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFVT
-			98isBTgAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAADXNw
-			ZW5kX3RyYWNrZXIAABAACAAAxzGUwAAAABEACAAAyKv3KAAAAAEA
-			GABVTLcAIwcDAA3i5AANzlsADWaZAA1jeQACAE1Ib29EaXNrMTpV
+			AAAAAAGsAAIAAQhIb29EaXNrMQAAAAAAAAAAAAAAAAAAAAAAAADH
+			MZTASCsAAABVTMIFdXNlcnMAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFVV
+			dMisCiwAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAABXZp
+			ZXdzAAAQAAgAAMcxlMAAAAARAAgAAMir/BwAAAABACAAVUzCAFVM
+			vQBVTLcAIwcDAA3i5AANzlsADWaZAA1jeQACAE1Ib29EaXNrMTpV
 			c2VyczpzaG9vbGV5OkRlc2t0b3A6UHJvZ3JhbW1pbmc6UnVieTpz
-			cGVuZF90cmFja2VyOlJFQURNRS5tYXJrZG93bgAADgAgAA8AUgBF
-			AEEARABNAEUALgBtAGEAcgBrAGQAbwB3AG4ADwASAAgASABvAG8A
-			RABpAHMAawAxABIARFVzZXJzL3Nob29sZXkvRGVza3RvcC9Qcm9n
-			cmFtbWluZy9SdWJ5L3NwZW5kX3RyYWNrZXIvUkVBRE1FLm1hcmtk
-			b3duABMAAS8AABUAAgAO//8AAA==
+			cGVuZF90cmFja2VyOmFwcDp2aWV3czp1c2VycwAADgAMAAUAdQBz
+			AGUAcgBzAA8AEgAIAEgAbwBvAEQAaQBzAGsAMQASAERVc2Vycy9z
+			aG9vbGV5L0Rlc2t0b3AvUHJvZ3JhbW1pbmcvUnVieS9zcGVuZF90
+			cmFja2VyL2FwcC92aWV3cy91c2VycwATAAEvAAAVAAIADv//AAA=
 			</data>
 			<key>FileURL</key>
-			<string>file://localhost/Users/shooley/Desktop/Programming/Ruby/spend_tracker/README.markdown</string>
-			<key>RelativePath</key>
-			<string>./README.markdown</string>
+			<string>file://localhost/Users/shooley/Desktop/Programming/Ruby/spend_tracker/app/views/users/</string>
+			<key>TypeID</key>
+			<string>_CFileLocator</string>
+			<key>Version</key>
+			<integer>1</integer>
+		</dict>
+		<string>F37395D9-D11F-43DC-AE60-BA2055F11772</string>
+		<string>0BC8D095-755C-476E-B8A6-C69D082B267A</string>
+		<string>2288F7D5-5E74-4016-BF66-9D687A470B17</string>
+		<dict>
+			<key>AliasData</key>
+			<data>
+			AAAAAAG0AAIAAQhIb29EaXNrMQAAAAAAAAAAAAAAAAAAAAAAAADH
+			MZTASCsAAABVbGgLY29udHJvbGxlcnMAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFVs
+			qcisFpAAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAABHNw
+			ZWMAEAAIAADHMZTAAAAAEQAIAADIrAiAAAAAAQAcAFVsaABVTLcA
+			IwcDAA3i5AANzlsADWaZAA1jeQACAE5Ib29EaXNrMTpVc2Vyczpz
+			aG9vbGV5OkRlc2t0b3A6UHJvZ3JhbW1pbmc6UnVieTpzcGVuZF90
+			cmFja2VyOnNwZWM6Y29udHJvbGxlcnMADgAYAAsAYwBvAG4AdABy
+			AG8AbABsAGUAcgBzAA8AEgAIAEgAbwBvAEQAaQBzAGsAMQASAEVV
+			c2Vycy9zaG9vbGV5L0Rlc2t0b3AvUHJvZ3JhbW1pbmcvUnVieS9z
+			cGVuZF90cmFja2VyL3NwZWMvY29udHJvbGxlcnMAABMAAS8AABUA
+			AgAO//8AAA==
+			</data>
+			<key>FileURL</key>
+			<string>file://localhost/Users/shooley/Desktop/Programming/Ruby/spend_tracker/spec/controllers/</string>
 			<key>TypeID</key>
 			<string>_CFileLocator</string>
 			<key>Version</key>
 			<integer>1</integer>
 		</dict>
 	</array>
+	<key>FileFilterID:shooley</key>
+	<string>msng</string>
+	<key>OpenDocuments:shooley</key>
+	<array/>
 	<key>ShowInvisibles:shooley</key>
-	<false/>
+	<true/>
 	<key>TextFilesOnly:shooley</key>
 	<true/>
 	<key>ToolbarVisible:shooley</key>
 	<true/>
 	<key>ViewSplitterPosition:shooley</key>
-	<real>0.26011559367179871</real>
+	<real>1.0044444799423218</real>
 	<key>WindowFrame:shooley:displays([(0, 0), (1680, 1050)]:[(1680, 0), (1680, 1050)])</key>
-	<string>rect(44,0,1046,865)</string>
+	<string>rect(48,54,1019,279)</string>
 </dict>
 </plist>

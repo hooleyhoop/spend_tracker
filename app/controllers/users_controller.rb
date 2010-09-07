@@ -2,6 +2,8 @@ class UsersController < ApplicationController
   # GET /users
   # GET /users.xml
   def index
+
+  #instance variable - available in the view
     @users = User.all
 
     respond_to do |format|

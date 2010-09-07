@@ -20,6 +20,7 @@
 		<string>3979B697-6C78-4817-B9CC-D8F83D2A485B</string>
 		<string>A6E12A84-DAC1-4816-9D9A-8010B67AD65E</string>
 		<string>11008926-B8B0-4949-93A6-670B786B9DC1</string>
+		<string>2288F7D5-5E74-4016-BF66-9D687A470B17</string>
 	</array>
 	<key>ProjectItems</key>
 	<dict>
@@ -125,6 +126,41 @@
 			<key>ItemType</key>
 			<string>FolderReference</string>
 		</dict>
+		<key>10D5A9A0-F4E1-439C-AF8A-17428BD90DE1</key>
+		<dict>
+			<key>ItemData</key>
+			<dict>
+				<key>AliasData</key>
+				<data>
+				AAAAAAHIAAIAAQhIb29EaXNrMQAAAAAAAAAAAAAAAAAA
+				AAAAAADHMZTASCsAAABVTMIMc3RhdGljX3BhZ2VzAAAA
+				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+				AAAAAAAAAAAAAAAAAAAAAFVspsisFpAAAAAAAAAAAP//
+				//8AAAkgAAAAAAAAAAAAAAAAAAAABXZpZXdzAAAQAAgA
+				AMcxlMAAAAARAAgAAMisCIAAAAABACAAVUzCAFVMvQBV
+				TLcAIwcDAA3i5AANzlsADWaZAA1jeQACAFRIb29EaXNr
+				MTpVc2VyczpzaG9vbGV5OkRlc2t0b3A6UHJvZ3JhbW1p
+				bmc6UnVieTpzcGVuZF90cmFja2VyOmFwcDp2aWV3czpz
+				dGF0aWNfcGFnZXMADgAaAAwAcwB0AGEAdABpAGMAXwBw
+				AGEAZwBlAHMADwASAAgASABvAG8ARABpAHMAawAxABIA
+				S1VzZXJzL3Nob29sZXkvRGVza3RvcC9Qcm9ncmFtbWlu
+				Zy9SdWJ5L3NwZW5kX3RyYWNrZXIvYXBwL3ZpZXdzL3N0
+				YXRpY19wYWdlcwAAEwABLwAAFQACAA7//wAA
+				</data>
+				<key>FileURL</key>
+				<string>file://localhost/Users/shooley/Desktop/Programming/Ruby/spend_tracker/app/views/static_pages/</string>
+				<key>RelativePath</key>
+				<string>./app/views/static_pages</string>
+				<key>TypeID</key>
+				<string>_CFileLocator</string>
+				<key>Version</key>
+				<integer>1</integer>
+			</dict>
+			<key>ItemName</key>
+			<string>static_pages</string>
+			<key>ItemType</key>
+			<string>FolderReference</string>
+		</dict>
 		<key>11008926-B8B0-4949-93A6-670B786B9DC1</key>
 		<dict>
 			<key>ItemData</key>
@@ -156,6 +192,40 @@
 			</dict>
 			<key>ItemName</key>
 			<string>vendor</string>
+			<key>ItemType</key>
+			<string>FolderReference</string>
+		</dict>
+		<key>2288F7D5-5E74-4016-BF66-9D687A470B17</key>
+		<dict>
+			<key>ItemData</key>
+			<dict>
+				<key>AliasData</key>
+				<data>
+				AAAAAAGUAAIAAQhIb29EaXNrMQAAAAAAAAAAAAAAAAAA
+				AAAAAADHMZTASCsAAABVTLcEc3BlYwAAAAAAAAAAAAAA
+				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+				AAAAAAAAAAAAAAAAAAAAAFVsaMisFS0AAAAAAAAAAP//
+				//8AAAkgAAAAAAAAAAAAAAAAAAAADXNwZW5kX3RyYWNr
+				ZXIAABAACAAAxzGUwAAAABEACAAAyKwHHQAAAAEAGABV
+				TLcAIwcDAA3i5AANzlsADWaZAA1jeQACAEJIb29EaXNr
+				MTpVc2VyczpzaG9vbGV5OkRlc2t0b3A6UHJvZ3JhbW1p
+				bmc6UnVieTpzcGVuZF90cmFja2VyOnNwZWMADgAKAAQA
+				cwBwAGUAYwAPABIACABIAG8AbwBEAGkAcwBrADEAEgA5
+				VXNlcnMvc2hvb2xleS9EZXNrdG9wL1Byb2dyYW1taW5n
+				L1J1Ynkvc3BlbmRfdHJhY2tlci9zcGVjAAATAAEvAAAV
+				AAIADv//AAA=
+				</data>
+				<key>FileURL</key>
+				<string>file://localhost/Users/shooley/Desktop/Programming/Ruby/spend_tracker/spec/</string>
+				<key>RelativePath</key>
+				<string>./spec</string>
+				<key>TypeID</key>
+				<string>_CFileLocator</string>
+				<key>Version</key>
+				<integer>1</integer>
+			</dict>
+			<key>ItemName</key>
+			<string>spec</string>
 			<key>ItemType</key>
 			<string>FolderReference</string>
 		</dict>
