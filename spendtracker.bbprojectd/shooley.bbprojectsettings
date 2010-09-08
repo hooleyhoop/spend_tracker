@@ -35,6 +35,50 @@
 		<dict>
 			<key>AliasData</key>
 			<data>
+			AAAAAAGiAAIAAQhIb29EaXNrMQAAAAAAAAAAAAAAAAAAAAAAAADH
+			MZTASCsAAABVTL0HaGVscGVycwAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFVM
+			wMir/wsAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAAA2Fw
+			cAAAEAAIAADHMZTAAAAAEQAIAADIq/D7AAAAAQAcAFVMvQBVTLcA
+			IwcDAA3i5AANzlsADWaZAA1jeQACAElIb29EaXNrMTpVc2Vyczpz
+			aG9vbGV5OkRlc2t0b3A6UHJvZ3JhbW1pbmc6UnVieTpzcGVuZF90
+			cmFja2VyOmFwcDpoZWxwZXJzAAAOABAABwBoAGUAbABwAGUAcgBz
+			AA8AEgAIAEgAbwBvAEQAaQBzAGsAMQASAEBVc2Vycy9zaG9vbGV5
+			L0Rlc2t0b3AvUHJvZ3JhbW1pbmcvUnVieS9zcGVuZF90cmFja2Vy
+			L2FwcC9oZWxwZXJzABMAAS8AABUAAgAO//8AAA==
+			</data>
+			<key>FileURL</key>
+			<string>file://localhost/Users/shooley/Desktop/Programming/Ruby/spend_tracker/app/helpers/</string>
+			<key>TypeID</key>
+			<string>_CFileLocator</string>
+			<key>Version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>AliasData</key>
+			<data>
+			AAAAAAGeAAIAAQhIb29EaXNrMQAAAAAAAAAAAAAAAAAAAAAAAADH
+			MZTASCsAAABVTL0GbW9kZWxzAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFVM
+			xsir/wsAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAAA2Fw
+			cAAAEAAIAADHMZTAAAAAEQAIAADIq/D7AAAAAQAcAFVMvQBVTLcA
+			IwcDAA3i5AANzlsADWaZAA1jeQACAEhIb29EaXNrMTpVc2Vyczpz
+			aG9vbGV5OkRlc2t0b3A6UHJvZ3JhbW1pbmc6UnVieTpzcGVuZF90
+			cmFja2VyOmFwcDptb2RlbHMADgAOAAYAbQBvAGQAZQBsAHMADwAS
+			AAgASABvAG8ARABpAHMAawAxABIAP1VzZXJzL3Nob29sZXkvRGVz
+			a3RvcC9Qcm9ncmFtbWluZy9SdWJ5L3NwZW5kX3RyYWNrZXIvYXBw
+			L21vZGVscwAAEwABLwAAFQACAA7//wAA
+			</data>
+			<key>FileURL</key>
+			<string>file://localhost/Users/shooley/Desktop/Programming/Ruby/spend_tracker/app/models/</string>
+			<key>TypeID</key>
+			<string>_CFileLocator</string>
+			<key>Version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>AliasData</key>
+			<data>
 			AAAAAAGaAAIAAQhIb29EaXNrMQAAAAAAAAAAAAAAAAAAAAAAAADH
 			MZTASCsAAABVTL0Fdmlld3MAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFVM
@@ -122,9 +166,75 @@
 			<key>Version</key>
 			<integer>1</integer>
 		</dict>
-		<string>F37395D9-D11F-43DC-AE60-BA2055F11772</string>
 		<string>0BC8D095-755C-476E-B8A6-C69D082B267A</string>
 		<string>2288F7D5-5E74-4016-BF66-9D687A470B17</string>
+		<dict>
+			<key>AliasData</key>
+			<data>
+			AAAAAAG0AAIAAQhIb29EaXNrMQAAAAAAAAAAAAAAAAAAAAAAAADH
+			MZTASCsAAABVbGgLY29udHJvbGxlcnMAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFV1
+			EcisJUcAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAABHNw
+			ZWMAEAAIAADHMZTAAAAAEQAIAADIrBc3AAAAAQAcAFVsaABVTLcA
+			IwcDAA3i5AANzlsADWaZAA1jeQACAE5Ib29EaXNrMTpVc2Vyczpz
+			aG9vbGV5OkRlc2t0b3A6UHJvZ3JhbW1pbmc6UnVieTpzcGVuZF90
+			cmFja2VyOnNwZWM6Y29udHJvbGxlcnMADgAYAAsAYwBvAG4AdABy
+			AG8AbABsAGUAcgBzAA8AEgAIAEgAbwBvAEQAaQBzAGsAMQASAEVV
+			c2Vycy9zaG9vbGV5L0Rlc2t0b3AvUHJvZ3JhbW1pbmcvUnVieS9z
+			cGVuZF90cmFja2VyL3NwZWMvY29udHJvbGxlcnMAABMAAS8AABUA
+			AgAO//8AAA==
+			</data>
+			<key>FileURL</key>
+			<string>file://localhost/Users/shooley/Desktop/Programming/Ruby/spend_tracker/spec/controllers/</string>
+			<key>TypeID</key>
+			<string>_CFileLocator</string>
+			<key>Version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>AliasData</key>
+			<data>
+			AAAAAAGgAAIAAQhIb29EaXNrMQAAAAAAAAAAAAAAAAAAAAAAAADH
+			MZTASCsAAABVbGgGbW9kZWxzAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFWf
+			4MitXjoAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAABHNw
+			ZWMAEAAIAADHMZTAAAAAEQAIAADIrVAqAAAAAQAcAFVsaABVTLcA
+			IwcDAA3i5AANzlsADWaZAA1jeQACAElIb29EaXNrMTpVc2Vyczpz
+			aG9vbGV5OkRlc2t0b3A6UHJvZ3JhbW1pbmc6UnVieTpzcGVuZF90
+			cmFja2VyOnNwZWM6bW9kZWxzAAAOAA4ABgBtAG8AZABlAGwAcwAP
+			ABIACABIAG8AbwBEAGkAcwBrADEAEgBAVXNlcnMvc2hvb2xleS9E
+			ZXNrdG9wL1Byb2dyYW1taW5nL1J1Ynkvc3BlbmRfdHJhY2tlci9z
+			cGVjL21vZGVscwATAAEvAAAVAAIADv//AAA=
+			</data>
+			<key>FileURL</key>
+			<string>file://localhost/Users/shooley/Desktop/Programming/Ruby/spend_tracker/spec/models/</string>
+			<key>TypeID</key>
+			<string>_CFileLocator</string>
+			<key>Version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>AliasData</key>
+			<data>
+			AAAAAAGoAAIAAQhIb29EaXNrMQAAAAAAAAAAAAAAAAAAAAAAAADH
+			MZTASCsAAABVbGgIcmVxdWVzdHMAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFWa
+			Q8itRTIAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAABHNw
+			ZWMAEAAIAADHMZTAAAAAEQAIAADIrTciAAAAAQAcAFVsaABVTLcA
+			IwcDAA3i5AANzlsADWaZAA1jeQACAEtIb29EaXNrMTpVc2Vyczpz
+			aG9vbGV5OkRlc2t0b3A6UHJvZ3JhbW1pbmc6UnVieTpzcGVuZF90
+			cmFja2VyOnNwZWM6cmVxdWVzdHMAAA4AEgAIAHIAZQBxAHUAZQBz
+			AHQAcwAPABIACABIAG8AbwBEAGkAcwBrADEAEgBCVXNlcnMvc2hv
+			b2xleS9EZXNrdG9wL1Byb2dyYW1taW5nL1J1Ynkvc3BlbmRfdHJh
+			Y2tlci9zcGVjL3JlcXVlc3RzABMAAS8AABUAAgAO//8AAA==
+			</data>
+			<key>FileURL</key>
+			<string>file://localhost/Users/shooley/Desktop/Programming/Ruby/spend_tracker/spec/requests/</string>
+			<key>TypeID</key>
+			<string>_CFileLocator</string>
+			<key>Version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>FileFilterID:shooley</key>
 	<string>msng</string>
@@ -139,6 +249,6 @@
 	<key>ViewSplitterPosition:shooley</key>
 	<real>1.002666711807251</real>
 	<key>WindowFrame:shooley:displays([(0, 0), (1680, 1050)]:[(1680, 0), (1680, 1050)])</key>
-	<string>rect(54,41,1044,416)</string>
+	<string>rect(44,50,1034,425)</string>
 </dict>
 </plist>
