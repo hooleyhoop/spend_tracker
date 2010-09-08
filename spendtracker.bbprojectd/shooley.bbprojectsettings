@@ -125,29 +125,6 @@
 		<string>F37395D9-D11F-43DC-AE60-BA2055F11772</string>
 		<string>0BC8D095-755C-476E-B8A6-C69D082B267A</string>
 		<string>2288F7D5-5E74-4016-BF66-9D687A470B17</string>
-		<dict>
-			<key>AliasData</key>
-			<data>
-			AAAAAAG0AAIAAQhIb29EaXNrMQAAAAAAAAAAAAAAAAAAAAAAAADH
-			MZTASCsAAABVbGgLY29udHJvbGxlcnMAAAAAAAAAAAAAAAAAAAAA
-			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFVs
-			qcisFpAAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAABHNw
-			ZWMAEAAIAADHMZTAAAAAEQAIAADIrAiAAAAAAQAcAFVsaABVTLcA
-			IwcDAA3i5AANzlsADWaZAA1jeQACAE5Ib29EaXNrMTpVc2Vyczpz
-			aG9vbGV5OkRlc2t0b3A6UHJvZ3JhbW1pbmc6UnVieTpzcGVuZF90
-			cmFja2VyOnNwZWM6Y29udHJvbGxlcnMADgAYAAsAYwBvAG4AdABy
-			AG8AbABsAGUAcgBzAA8AEgAIAEgAbwBvAEQAaQBzAGsAMQASAEVV
-			c2Vycy9zaG9vbGV5L0Rlc2t0b3AvUHJvZ3JhbW1pbmcvUnVieS9z
-			cGVuZF90cmFja2VyL3NwZWMvY29udHJvbGxlcnMAABMAAS8AABUA
-			AgAO//8AAA==
-			</data>
-			<key>FileURL</key>
-			<string>file://localhost/Users/shooley/Desktop/Programming/Ruby/spend_tracker/spec/controllers/</string>
-			<key>TypeID</key>
-			<string>_CFileLocator</string>
-			<key>Version</key>
-			<integer>1</integer>
-		</dict>
 	</array>
 	<key>FileFilterID:shooley</key>
 	<string>msng</string>
@@ -160,8 +137,8 @@
 	<key>ToolbarVisible:shooley</key>
 	<true/>
 	<key>ViewSplitterPosition:shooley</key>
-	<real>1.0044444799423218</real>
+	<real>1.002666711807251</real>
 	<key>WindowFrame:shooley:displays([(0, 0), (1680, 1050)]:[(1680, 0), (1680, 1050)])</key>
-	<string>rect(48,54,1019,279)</string>
+	<string>rect(54,41,1044,416)</string>
 </dict>
 </plist>
