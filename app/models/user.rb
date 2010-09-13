@@ -12,6 +12,7 @@
 
 class User < ActiveRecord::Base
 
+	#which attributes of the model can be modified by submitting a wen request?
   attr_accessor :password
   attr_accessible :name, :email, :password, :password_confirmation
 
@@ -30,6 +31,11 @@ class User < ActiveRecord::Base
                        :length       => { :within => 6..40 }
 
   before_save :encrypt_password
+
+  # def initialize(attributes = {})
+  #  @name  = attributes[:name]
+  #  @email = attributes[:email]
+  # end
 
   # Return true if the user's password matches the submitted password.
   def has_password?(submitted_password)
