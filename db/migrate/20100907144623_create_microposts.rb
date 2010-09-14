@@ -6,6 +6,8 @@ class CreateMicroposts < ActiveRecord::Migration
 
       t.timestamps
     end
+    #add an index on the user id column as we will wont to receive all posts by id
+    add_index :microposts, :user_id
   end
 
   def self.down

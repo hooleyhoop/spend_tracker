@@ -124,6 +124,29 @@
 		<dict>
 			<key>AliasData</key>
 			<data>
+			AAAAAAHAAAIAAQhIb29EaXNrMQAAAAAAAAAAAAAAAAAAAAAAAADH
+			MZTASCsAAABVTMIKbWljcm9wb3N0cwAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFVW
+			7MisDs8AAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAABXZp
+			ZXdzAAAQAAgAAMcxlMAAAAARAAgAAMisAL8AAAABACAAVUzCAFVM
+			vQBVTLcAIwcDAA3i5AANzlsADWaZAA1jeQACAFJIb29EaXNrMTpV
+			c2VyczpzaG9vbGV5OkRlc2t0b3A6UHJvZ3JhbW1pbmc6UnVieTpz
+			cGVuZF90cmFja2VyOmFwcDp2aWV3czptaWNyb3Bvc3RzAA4AFgAK
+			AG0AaQBjAHIAbwBwAG8AcwB0AHMADwASAAgASABvAG8ARABpAHMA
+			awAxABIASVVzZXJzL3Nob29sZXkvRGVza3RvcC9Qcm9ncmFtbWlu
+			Zy9SdWJ5L3NwZW5kX3RyYWNrZXIvYXBwL3ZpZXdzL21pY3JvcG9z
+			dHMAABMAAS8AABUAAgAO//8AAA==
+			</data>
+			<key>FileURL</key>
+			<string>file://localhost/Users/shooley/Desktop/Programming/Ruby/spend_tracker/app/views/microposts/</string>
+			<key>TypeID</key>
+			<string>_CFileLocator</string>
+			<key>Version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>AliasData</key>
+			<data>
 			AAAAAAGwAAIAAQhIb29EaXNrMQAAAAAAAAAAAAAAAAAAAAAAAADH
 			MZTASCsAAABVTMIGc2hhcmVkAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFX4
@@ -294,6 +317,6 @@
 	<key>ViewSplitterPosition:shooley</key>
 	<real>1.002666711807251</real>
 	<key>WindowFrame:shooley:displays([(0, 0), (1680, 1050)]:[(1680, 0), (1680, 1050)])</key>
-	<string>rect(44,46,1034,421)</string>
+	<string>rect(45,12,1035,387)</string>
 </dict>
 </plist>
