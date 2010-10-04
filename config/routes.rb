@@ -3,6 +3,7 @@ SpendTracker::Application.routes.draw do
   resources :users
   resources :sessions, :only => [:new, :create, :destroy]
   resources :microposts, :only => [:create, :destroy]
+  resources :relationships, :only => [:create, :destroy]
 
   match '/signup',  :to => 'users#new'
   match '/signin',  :to => 'sessions#new'
@@ -12,7 +13,11 @@ SpendTracker::Application.routes.draw do
   match '/about',   :to => 'static_pages#about'
   match '/help',    :to => 'static_pages#help'
 
-
+  resources :users do
+    member do
+      get :following, :followers
+    end
+  end
 
 
   # The priority is based upon order of creation:

@@ -59,7 +59,12 @@ describe UsersController do
 	describe "GET 'show'" do
 
     before(:each) do
+    	# use factory girl to create a new user (spec/factories.rb)
       @user = Factory(:user)
+
+			# stubs aren't used in the rails tutorial but you could stub out find() to stop it
+			# hitting the database to return our factory girl instance
+      # User.stub!(:find, @user.id).and_return(@user)
     end
 
     it "should be successful" do
@@ -69,6 +74,7 @@ describe UsersController do
 
     it "should find the right user" do
       get :show, :id => @user
+			# assigns is returning the instance variable @user in the controller
       assigns(:user).should == @user
     end
 
@@ -321,6 +327,43 @@ describe UsersController do
       it "should redirect to the users page" do
         delete :destroy, :id => @user
         response.should redirect_to(users_path)
+      end
+    end
+  end
+
+  describe "follow pages" do
+
+    describe "when not signed in" do
+
+      it "should protect 'following'" do
+        get :following, :id => 1
+        response.should redirect_to(signin_path)
+      end
+
+      it "should protect 'followers'" do
+        get :followers, :id => 1
+        response.should redirect_to(signin_path)
+      end
+    end
+
+    describe "when signed in" do
+
+      before(:each) do
+        @user = test_sign_in(Factory(:user))
+        @other_user = Factory(:user, :email => Factory.next(:email))
+        @user.follow!(@other_user)
+      end
+
+      it "should show user following" do
+        get :following, :id => @user
+        response.should have_selector("a", :href => user_path(@other_user),
+                                           :content => @other_user.name)
+      end
+
+      it "should show user followers" do
+        get :followers, :id => @other_user
+        response.should have_selector("a", :href => user_path(@user),
+                                           :content => @user.name)
       end
     end
   end
