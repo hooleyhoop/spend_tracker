@@ -37,8 +37,6 @@ describe RelationshipsController do
     end
   end
 
-  end
-
   describe "DELETE 'destroy'" do
 
     before(:each) do
@@ -63,4 +61,5 @@ describe RelationshipsController do
     end
 
   end
+
 end
