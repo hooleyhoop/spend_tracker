@@ -13,12 +13,16 @@ SpendTracker::Application.routes.draw do
   match '/about',   :to => 'static_pages#about'
   match '/help',    :to => 'static_pages#help'
 
+  #/users/1/following     following_user_path(1)
+  #/users/1/followers		followers_user_path(1)
   resources :users do
     member do
       get :following, :followers
     end
   end
 
+  # BEGIN SPENDTRACKER
+  resources :family
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

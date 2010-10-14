@@ -19,6 +19,8 @@ ActiveRecord::Schema.define(:version => 20101004131054) do
     t.datetime "updated_at"
   end
 
+  add_index "microposts", ["user_id"], :name => "index_microposts_on_user_id"
+
   create_table "relationships", :force => true do |t|
     t.integer  "follower_id"
     t.integer  "followed_id"
@@ -36,7 +38,7 @@ ActiveRecord::Schema.define(:version => 20101004131054) do
     t.datetime "updated_at"
     t.string   "encrypted_password"
     t.string   "salt"
-    t.boolean  "admin"
+    t.boolean  "admin",              :default => false
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true
