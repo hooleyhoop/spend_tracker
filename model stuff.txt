@@ -1,0 +1,16 @@
+Family
+	- name
+	- email?
+	- users?
+	- encrypted_password?
+	- salt
+	- admin
+	
+	
+> Signup ? 
+	- FamilyName : Hooley
+	- Password : ********
+	- your username :
+	- additional users :
+	
+	- invite friends?
