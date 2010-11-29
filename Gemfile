@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.0'
+gem 'rails', '3.0.3'
 gem 'mongrel', '1.2.0.pre2'
 gem 'jquery-rails'
 gem 'haml'
@@ -24,7 +24,6 @@ gem 'will_paginate', '3.0.pre2'
 # Bundle the extra gems:
 # gem 'bj'
 # gem 'nokogiri'
-# gem 'sqlite3-ruby', :require => 'sqlite3'
 # gem 'aws-s3', :require => 'aws/s3'
 
 # Bundle gems for the local environment. Make sure to
@@ -32,16 +31,16 @@ gem 'will_paginate', '3.0.pre2'
 # and rake tasks are available in development mode:
 
 group :development do
-	gem 'webrat'
-	gem 'rspec-rails', '2.0.0.beta.22'
+	gem 'webrat', '0.7.2'
+	gem 'rspec-rails', '2.1.0'
   gem 'annotate-models', '1.0.4'
-  gem 'faker', '0.3.1'
+  gem 'faker'
 end
 
 group :test do
-  gem 'rspec', '2.0.0.beta.22'
+  gem 'rspec', '2.1.0'
   gem 'spork', '0.8.4'
-	gem 'factory_girl_rails', '1.0'
+	gem 'factory_girl_rails'
 end
 
 gem "autotest"
