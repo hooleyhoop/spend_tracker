@@ -1,5 +1,9 @@
 SpendTracker::Application.routes.draw do
 
+  resources :group_memberships
+
+  resources :groups
+
   resources :members
 
   resources :users

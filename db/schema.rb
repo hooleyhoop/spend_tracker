@@ -10,12 +10,25 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20101201130728) do
+ActiveRecord::Schema.define(:version => 20101202144715) do
+
+  create_table "group_memberships", :force => true do |t|
+    t.integer  "group_id"
+    t.integer  "member_id"
+    t.string   "instrument"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "groups", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "members", :force => true do |t|
     t.string   "name"
     t.string   "email"
-    t.string   "nonsense"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
