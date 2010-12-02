@@ -4,11 +4,11 @@ gem 'rails', '3.0.3'
 gem 'mongrel', '1.2.0.pre2'
 gem 'jquery-rails'
 gem 'haml'
+gem 'sqlite3-ruby', :require => 'sqlite3'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3-ruby', :require => 'sqlite3'
 gem 'gravatar_image_tag', '1.0.0.pre2'
 gem 'will_paginate', '3.0.pre2'
 
@@ -19,7 +19,8 @@ gem 'will_paginate', '3.0.pre2'
 # gem 'capistrano'
 
 # To use debugger
-gem 'ruby-debug'
+gem 'ruby-debug19'
+gem 'linecache19'
 
 # Bundle the extra gems:
 # gem 'bj'
@@ -31,16 +32,20 @@ gem 'ruby-debug'
 # and rake tasks are available in development mode:
 
 group :development do
-	gem 'webrat', '0.7.2'
-	gem 'rspec-rails', '2.1.0'
-  gem 'annotate-models', '1.0.4'
-  gem 'faker'
+	gem 'annotate-models', '1.0.4'
+	gem 'faker'
+	gem "rspec-rails", ">= 2.2.0"
 end
 
 group :test do
-  gem 'rspec', '2.1.0'
-  gem 'spork', '0.8.4'
+	#spork doesn't seem to be ready for rails 3
+	#gem 'spork', '0.8.4'
 	gem 'factory_girl_rails'
+	gem 'webrat', '0.7.2'
+	gem 'rspec', '>= 2.2.0'
+end
+
+group :development, :test do
 end
 
 gem "autotest"

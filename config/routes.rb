@@ -1,5 +1,7 @@
 SpendTracker::Application.routes.draw do
 
+  resources :members
+
   resources :users
   resources :sessions, :only => [:new, :create, :destroy]
   resources :microposts, :only => [:create, :destroy]

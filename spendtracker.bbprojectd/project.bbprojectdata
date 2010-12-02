@@ -30,22 +30,22 @@
 			<dict>
 				<key>AliasData</key>
 				<data>
-				AAAAAAGcAAIAAQhIb29EaXNrMQAAAAAAAAAAAAAAAAAA
-				AAAAAADHMZTASCsAAABVTLcGcHVibGljAAAAAAAAAAAA
+				AAAAAAGsAAIAAQhIb29EaXNrMQAAAAAAAAAAAAAAAAAA
+				AAAAAADIBiB8SCsAAABVTLcGcHVibGljAAAAAAAAAAAA
 				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 				AAAAAAAAAAAAAAAAAAAAAFVM5cir/wsAAAAAAAAAAP//
 				//8AAAkgAAAAAAAAAAAAAAAAAAAADXNwZW5kX3RyYWNr
-				ZXIAABAACAAAxzGUwAAAABEACAAAyKvw+wAAAAEAGABV
-				TLcAIwcDAA3i5AANzlsADWaZAA1jeQACAERIb29EaXNr
-				MTpVc2VyczpzaG9vbGV5OkRlc2t0b3A6UHJvZ3JhbW1p
-				bmc6UnVieTpzcGVuZF90cmFja2VyOnB1YmxpYwAOAA4A
-				BgBwAHUAYgBsAGkAYwAPABIACABIAG8AbwBEAGkAcwBr
-				ADEAEgA7VXNlcnMvc2hvb2xleS9EZXNrdG9wL1Byb2dy
-				YW1taW5nL1J1Ynkvc3BlbmRfdHJhY2tlci9wdWJsaWMA
-				ABMAAS8AABUAAgAO//8AAA==
+				ZXIAABAACAAAyAYSbAAAABEACAAAyKvw+wAAAAEAHABV
+				TLcAIwcDAA3i5ADAJ74ADc5bAA1mmQANY3kAAgBKSG9v
+				RGlzazE6VXNlcnM6c2hvb2xleTpEZXNrdG9wOk9yZ2Fu
+				OlByb2dyYW1taW5nOlJ1Ynk6c3BlbmRfdHJhY2tlcjpw
+				dWJsaWMADgAOAAYAcAB1AGIAbABpAGMADwASAAgASABv
+				AG8ARABpAHMAawAxABIAQVVzZXJzL3Nob29sZXkvRGVz
+				a3RvcC9Pcmdhbi9Qcm9ncmFtbWluZy9SdWJ5L3NwZW5k
+				X3RyYWNrZXIvcHVibGljAAATAAEvAAAVAAIADv//AAA=
 				</data>
 				<key>FileURL</key>
-				<string>file://localhost/Users/shooley/Desktop/Programming/Ruby/spend_tracker/public/</string>
+				<string>file://localhost/Users/shooley/Desktop/Organ/Programming/Ruby/spend_tracker/public/</string>
 				<key>RelativePath</key>
 				<string>./public</string>
 				<key>TypeID</key>
@@ -64,22 +64,22 @@
 			<dict>
 				<key>AliasData</key>
 				<data>
-				AAAAAAGQAAIAAQhIb29EaXNrMQAAAAAAAAAAAAAAAAAA
-				AAAAAADHMZTASCsAAABVTLcDbG9nAAAAAAAAAAAAAAAA
+				AAAAAAGgAAIAAQhIb29EaXNrMQAAAAAAAAAAAAAAAAAA
+				AAAAAADIBiB8SCsAAABVTLcDbG9nAAAAAAAAAAAAAAAA
 				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 				AAAAAAAAAAAAAAAAAAAAAFVM4Mir/wsAAAAAAAAAAP//
 				//8AAAkgAAAAAAAAAAAAAAAAAAAADXNwZW5kX3RyYWNr
-				ZXIAABAACAAAxzGUwAAAABEACAAAyKvw+wAAAAEAGABV
-				TLcAIwcDAA3i5AANzlsADWaZAA1jeQACAEFIb29EaXNr
-				MTpVc2VyczpzaG9vbGV5OkRlc2t0b3A6UHJvZ3JhbW1p
-				bmc6UnVieTpzcGVuZF90cmFja2VyOmxvZwAADgAIAAMA
-				bABvAGcADwASAAgASABvAG8ARABpAHMAawAxABIAOFVz
-				ZXJzL3Nob29sZXkvRGVza3RvcC9Qcm9ncmFtbWluZy9S
-				dWJ5L3NwZW5kX3RyYWNrZXIvbG9nABMAAS8AABUAAgAO
-				//8AAA==
+				ZXIAABAACAAAyAYSbAAAABEACAAAyKvw+wAAAAEAHABV
+				TLcAIwcDAA3i5ADAJ74ADc5bAA1mmQANY3kAAgBHSG9v
+				RGlzazE6VXNlcnM6c2hvb2xleTpEZXNrdG9wOk9yZ2Fu
+				OlByb2dyYW1taW5nOlJ1Ynk6c3BlbmRfdHJhY2tlcjps
+				b2cAAA4ACAADAGwAbwBnAA8AEgAIAEgAbwBvAEQAaQBz
+				AGsAMQASAD5Vc2Vycy9zaG9vbGV5L0Rlc2t0b3AvT3Jn
+				YW4vUHJvZ3JhbW1pbmcvUnVieS9zcGVuZF90cmFja2Vy
+				L2xvZwATAAEvAAAVAAIADv//AAA=
 				</data>
 				<key>FileURL</key>
-				<string>file://localhost/Users/shooley/Desktop/Programming/Ruby/spend_tracker/log/</string>
+				<string>file://localhost/Users/shooley/Desktop/Organ/Programming/Ruby/spend_tracker/log/</string>
 				<key>RelativePath</key>
 				<string>./log</string>
 				<key>TypeID</key>
@@ -98,22 +98,22 @@
 			<dict>
 				<key>AliasData</key>
 				<data>
-				AAAAAAGQAAIAAQhIb29EaXNrMQAAAAAAAAAAAAAAAAAA
-				AAAAAADHMZTASCsAAABVTLcDZG9jAAAAAAAAAAAAAAAA
+				AAAAAAGgAAIAAQhIb29EaXNrMQAAAAAAAAAAAAAAAAAA
+				AAAAAADIBiB8SCsAAABVTLcDZG9jAAAAAAAAAAAAAAAA
 				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 				AAAAAAAAAAAAAAAAAAAAAFVM28ir/wsAAAAAAAAAAP//
 				//8AAAkgAAAAAAAAAAAAAAAAAAAADXNwZW5kX3RyYWNr
-				ZXIAABAACAAAxzGUwAAAABEACAAAyKvw+wAAAAEAGABV
-				TLcAIwcDAA3i5AANzlsADWaZAA1jeQACAEFIb29EaXNr
-				MTpVc2VyczpzaG9vbGV5OkRlc2t0b3A6UHJvZ3JhbW1p
-				bmc6UnVieTpzcGVuZF90cmFja2VyOmRvYwAADgAIAAMA
-				ZABvAGMADwASAAgASABvAG8ARABpAHMAawAxABIAOFVz
-				ZXJzL3Nob29sZXkvRGVza3RvcC9Qcm9ncmFtbWluZy9S
-				dWJ5L3NwZW5kX3RyYWNrZXIvZG9jABMAAS8AABUAAgAO
-				//8AAA==
+				ZXIAABAACAAAyAYSbAAAABEACAAAyKvw+wAAAAEAHABV
+				TLcAIwcDAA3i5ADAJ74ADc5bAA1mmQANY3kAAgBHSG9v
+				RGlzazE6VXNlcnM6c2hvb2xleTpEZXNrdG9wOk9yZ2Fu
+				OlByb2dyYW1taW5nOlJ1Ynk6c3BlbmRfdHJhY2tlcjpk
+				b2MAAA4ACAADAGQAbwBjAA8AEgAIAEgAbwBvAEQAaQBz
+				AGsAMQASAD5Vc2Vycy9zaG9vbGV5L0Rlc2t0b3AvT3Jn
+				YW4vUHJvZ3JhbW1pbmcvUnVieS9zcGVuZF90cmFja2Vy
+				L2RvYwATAAEvAAAVAAIADv//AAA=
 				</data>
 				<key>FileURL</key>
-				<string>file://localhost/Users/shooley/Desktop/Programming/Ruby/spend_tracker/doc/</string>
+				<string>file://localhost/Users/shooley/Desktop/Organ/Programming/Ruby/spend_tracker/doc/</string>
 				<key>RelativePath</key>
 				<string>./doc</string>
 				<key>TypeID</key>
@@ -126,63 +126,28 @@
 			<key>ItemType</key>
 			<string>FolderReference</string>
 		</dict>
-		<key>10D5A9A0-F4E1-439C-AF8A-17428BD90DE1</key>
-		<dict>
-			<key>ItemData</key>
-			<dict>
-				<key>AliasData</key>
-				<data>
-				AAAAAAHIAAIAAQhIb29EaXNrMQAAAAAAAAAAAAAAAAAA
-				AAAAAADHMZTASCsAAABVTMIMc3RhdGljX3BhZ2VzAAAA
-				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-				AAAAAAAAAAAAAAAAAAAAAFVspsisFpAAAAAAAAAAAP//
-				//8AAAkgAAAAAAAAAAAAAAAAAAAABXZpZXdzAAAQAAgA
-				AMcxlMAAAAARAAgAAMisCIAAAAABACAAVUzCAFVMvQBV
-				TLcAIwcDAA3i5AANzlsADWaZAA1jeQACAFRIb29EaXNr
-				MTpVc2VyczpzaG9vbGV5OkRlc2t0b3A6UHJvZ3JhbW1p
-				bmc6UnVieTpzcGVuZF90cmFja2VyOmFwcDp2aWV3czpz
-				dGF0aWNfcGFnZXMADgAaAAwAcwB0AGEAdABpAGMAXwBw
-				AGEAZwBlAHMADwASAAgASABvAG8ARABpAHMAawAxABIA
-				S1VzZXJzL3Nob29sZXkvRGVza3RvcC9Qcm9ncmFtbWlu
-				Zy9SdWJ5L3NwZW5kX3RyYWNrZXIvYXBwL3ZpZXdzL3N0
-				YXRpY19wYWdlcwAAEwABLwAAFQACAA7//wAA
-				</data>
-				<key>FileURL</key>
-				<string>file://localhost/Users/shooley/Desktop/Programming/Ruby/spend_tracker/app/views/static_pages/</string>
-				<key>RelativePath</key>
-				<string>./app/views/static_pages</string>
-				<key>TypeID</key>
-				<string>_CFileLocator</string>
-				<key>Version</key>
-				<integer>1</integer>
-			</dict>
-			<key>ItemName</key>
-			<string>static_pages</string>
-			<key>ItemType</key>
-			<string>FolderReference</string>
-		</dict>
 		<key>11008926-B8B0-4949-93A6-670B786B9DC1</key>
 		<dict>
 			<key>ItemData</key>
 			<dict>
 				<key>AliasData</key>
 				<data>
-				AAAAAAGcAAIAAQhIb29EaXNrMQAAAAAAAAAAAAAAAAAA
-				AAAAAADHMZTASCsAAABVTLcGdmVuZG9yAAAAAAAAAAAA
+				AAAAAAGsAAIAAQhIb29EaXNrMQAAAAAAAAAAAAAAAAAA
+				AAAAAADIBiB8SCsAAABVTLcGdmVuZG9yAAAAAAAAAAAA
 				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 				AAAAAAAAAAAAAAAAAAAAAFVNBsir/wsAAAAAAAAAAP//
 				//8AAAkgAAAAAAAAAAAAAAAAAAAADXNwZW5kX3RyYWNr
-				ZXIAABAACAAAxzGUwAAAABEACAAAyKvw+wAAAAEAGABV
-				TLcAIwcDAA3i5AANzlsADWaZAA1jeQACAERIb29EaXNr
-				MTpVc2VyczpzaG9vbGV5OkRlc2t0b3A6UHJvZ3JhbW1p
-				bmc6UnVieTpzcGVuZF90cmFja2VyOnZlbmRvcgAOAA4A
-				BgB2AGUAbgBkAG8AcgAPABIACABIAG8AbwBEAGkAcwBr
-				ADEAEgA7VXNlcnMvc2hvb2xleS9EZXNrdG9wL1Byb2dy
-				YW1taW5nL1J1Ynkvc3BlbmRfdHJhY2tlci92ZW5kb3IA
-				ABMAAS8AABUAAgAO//8AAA==
+				ZXIAABAACAAAyAYSbAAAABEACAAAyKvw+wAAAAEAHABV
+				TLcAIwcDAA3i5ADAJ74ADc5bAA1mmQANY3kAAgBKSG9v
+				RGlzazE6VXNlcnM6c2hvb2xleTpEZXNrdG9wOk9yZ2Fu
+				OlByb2dyYW1taW5nOlJ1Ynk6c3BlbmRfdHJhY2tlcjp2
+				ZW5kb3IADgAOAAYAdgBlAG4AZABvAHIADwASAAgASABv
+				AG8ARABpAHMAawAxABIAQVVzZXJzL3Nob29sZXkvRGVz
+				a3RvcC9Pcmdhbi9Qcm9ncmFtbWluZy9SdWJ5L3NwZW5k
+				X3RyYWNrZXIvdmVuZG9yAAATAAEvAAAVAAIADv//AAA=
 				</data>
 				<key>FileURL</key>
-				<string>file://localhost/Users/shooley/Desktop/Programming/Ruby/spend_tracker/vendor/</string>
+				<string>file://localhost/Users/shooley/Desktop/Organ/Programming/Ruby/spend_tracker/vendor/</string>
 				<key>RelativePath</key>
 				<string>./vendor</string>
 				<key>TypeID</key>
@@ -201,22 +166,22 @@
 			<dict>
 				<key>AliasData</key>
 				<data>
-				AAAAAAGUAAIAAQhIb29EaXNrMQAAAAAAAAAAAAAAAAAA
-				AAAAAADHMZTASCsAAABVTLcEc3BlYwAAAAAAAAAAAAAA
+				AAAAAAGkAAIAAQhIb29EaXNrMQAAAAAAAAAAAAAAAAAA
+				AAAAAADIBiB8SCsAAABVTLcEc3BlYwAAAAAAAAAAAAAA
 				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 				AAAAAAAAAAAAAAAAAAAAAFVsaMisFS0AAAAAAAAAAP//
 				//8AAAkgAAAAAAAAAAAAAAAAAAAADXNwZW5kX3RyYWNr
-				ZXIAABAACAAAxzGUwAAAABEACAAAyKwHHQAAAAEAGABV
-				TLcAIwcDAA3i5AANzlsADWaZAA1jeQACAEJIb29EaXNr
-				MTpVc2VyczpzaG9vbGV5OkRlc2t0b3A6UHJvZ3JhbW1p
-				bmc6UnVieTpzcGVuZF90cmFja2VyOnNwZWMADgAKAAQA
-				cwBwAGUAYwAPABIACABIAG8AbwBEAGkAcwBrADEAEgA5
-				VXNlcnMvc2hvb2xleS9EZXNrdG9wL1Byb2dyYW1taW5n
-				L1J1Ynkvc3BlbmRfdHJhY2tlci9zcGVjAAATAAEvAAAV
-				AAIADv//AAA=
+				ZXIAABAACAAAyAYSbAAAABEACAAAyKwHHQAAAAEAHABV
+				TLcAIwcDAA3i5ADAJ74ADc5bAA1mmQANY3kAAgBISG9v
+				RGlzazE6VXNlcnM6c2hvb2xleTpEZXNrdG9wOk9yZ2Fu
+				OlByb2dyYW1taW5nOlJ1Ynk6c3BlbmRfdHJhY2tlcjpz
+				cGVjAA4ACgAEAHMAcABlAGMADwASAAgASABvAG8ARABp
+				AHMAawAxABIAP1VzZXJzL3Nob29sZXkvRGVza3RvcC9P
+				cmdhbi9Qcm9ncmFtbWluZy9SdWJ5L3NwZW5kX3RyYWNr
+				ZXIvc3BlYwAAEwABLwAAFQACAA7//wAA
 				</data>
 				<key>FileURL</key>
-				<string>file://localhost/Users/shooley/Desktop/Programming/Ruby/spend_tracker/spec/</string>
+				<string>file://localhost/Users/shooley/Desktop/Organ/Programming/Ruby/spend_tracker/spec/</string>
 				<key>RelativePath</key>
 				<string>./spec</string>
 				<key>TypeID</key>
@@ -235,21 +200,22 @@
 			<dict>
 				<key>AliasData</key>
 				<data>
-				AAAAAAGMAAIAAQhIb29EaXNrMQAAAAAAAAAAAAAAAAAA
-				AAAAAADHMZTASCsAAABVTLcCZGIAAAAAAAAAAAAAAAAA
+				AAAAAAGcAAIAAQhIb29EaXNrMQAAAAAAAAAAAAAAAAAA
+				AAAAAADIBiB8SCsAAABVTLcCZGIAAAAAAAAAAAAAAAAA
 				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 				AAAAAAAAAAAAAAAAAAAAAFVM2cir/wsAAAAAAAAAAP//
 				//8AAAkgAAAAAAAAAAAAAAAAAAAADXNwZW5kX3RyYWNr
-				ZXIAABAACAAAxzGUwAAAABEACAAAyKvw+wAAAAEAGABV
-				TLcAIwcDAA3i5AANzlsADWaZAA1jeQACAEBIb29EaXNr
-				MTpVc2VyczpzaG9vbGV5OkRlc2t0b3A6UHJvZ3JhbW1p
-				bmc6UnVieTpzcGVuZF90cmFja2VyOmRiAA4ABgACAGQA
-				YgAPABIACABIAG8AbwBEAGkAcwBrADEAEgA3VXNlcnMv
-				c2hvb2xleS9EZXNrdG9wL1Byb2dyYW1taW5nL1J1Ynkv
-				c3BlbmRfdHJhY2tlci9kYgAAEwABLwAAFQACAA7//wAA
+				ZXIAABAACAAAyAYSbAAAABEACAAAyKvw+wAAAAEAHABV
+				TLcAIwcDAA3i5ADAJ74ADc5bAA1mmQANY3kAAgBGSG9v
+				RGlzazE6VXNlcnM6c2hvb2xleTpEZXNrdG9wOk9yZ2Fu
+				OlByb2dyYW1taW5nOlJ1Ynk6c3BlbmRfdHJhY2tlcjpk
+				YgAOAAYAAgBkAGIADwASAAgASABvAG8ARABpAHMAawAx
+				ABIAPVVzZXJzL3Nob29sZXkvRGVza3RvcC9Pcmdhbi9Q
+				cm9ncmFtbWluZy9SdWJ5L3NwZW5kX3RyYWNrZXIvZGIA
+				ABMAAS8AABUAAgAO//8AAA==
 				</data>
 				<key>FileURL</key>
-				<string>file://localhost/Users/shooley/Desktop/Programming/Ruby/spend_tracker/db/</string>
+				<string>file://localhost/Users/shooley/Desktop/Organ/Programming/Ruby/spend_tracker/db/</string>
 				<key>RelativePath</key>
 				<string>./db</string>
 				<key>TypeID</key>
@@ -268,22 +234,23 @@
 			<dict>
 				<key>AliasData</key>
 				<data>
-				AAAAAAGkAAIAAAhIb29EaXNrMQAAAAAAAAAAAAAAAAAA
-				AAAAAADHMZTASCsAAABVTLcIUmFrZWZpbGUAAAAAAAAA
+				AAAAAAG0AAIAAAhIb29EaXNrMQAAAAAAAAAAAAAAAAAA
+				AAAAAADIBiB8SCsAAABVTLcIUmFrZWZpbGUAAAAAAAAA
 				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-				AAAAAAAAAAAAAAAAAAAAAFVT+MisBTgAAAAAAAAAAP//
+				AAAAAAAAAAAAAAAAAAAAAFVT+MisBThURVhUAAAAAP//
 				//8AAAkgAAAAAAAAAAAAAAAAAAAADXNwZW5kX3RyYWNr
-				ZXIAABAACAAAxzGUwAAAABEACAAAyKv3KAAAAAEAGABV
-				TLcAIwcDAA3i5AANzlsADWaZAA1jeQACAEZIb29EaXNr
-				MTpVc2VyczpzaG9vbGV5OkRlc2t0b3A6UHJvZ3JhbW1p
-				bmc6UnVieTpzcGVuZF90cmFja2VyOlJha2VmaWxlAA4A
-				EgAIAFIAYQBrAGUAZgBpAGwAZQAPABIACABIAG8AbwBE
-				AGkAcwBrADEAEgA9VXNlcnMvc2hvb2xleS9EZXNrdG9w
-				L1Byb2dyYW1taW5nL1J1Ynkvc3BlbmRfdHJhY2tlci9S
-				YWtlZmlsZQAAEwABLwAAFQACAA7//wAA
+				ZXIAABAACAAAyAYSbAAAABEACAAAyKv3KAAAAAEAHABV
+				TLcAIwcDAA3i5ADAJ74ADc5bAA1mmQANY3kAAgBMSG9v
+				RGlzazE6VXNlcnM6c2hvb2xleTpEZXNrdG9wOk9yZ2Fu
+				OlByb2dyYW1taW5nOlJ1Ynk6c3BlbmRfdHJhY2tlcjpS
+				YWtlZmlsZQAOABIACABSAGEAawBlAGYAaQBsAGUADwAS
+				AAgASABvAG8ARABpAHMAawAxABIAQ1VzZXJzL3Nob29s
+				ZXkvRGVza3RvcC9Pcmdhbi9Qcm9ncmFtbWluZy9SdWJ5
+				L3NwZW5kX3RyYWNrZXIvUmFrZWZpbGUAABMAAS8AABUA
+				AgAO//8AAA==
 				</data>
 				<key>FileURL</key>
-				<string>file://localhost/Users/shooley/Desktop/Programming/Ruby/spend_tracker/Rakefile</string>
+				<string>file://localhost/Users/shooley/Desktop/Organ/Programming/Ruby/spend_tracker/Rakefile</string>
 				<key>RelativePath</key>
 				<string>./Rakefile</string>
 				<key>TypeID</key>
@@ -302,22 +269,22 @@
 			<dict>
 				<key>AliasData</key>
 				<data>
-				AAAAAAGUAAIAAQhIb29EaXNrMQAAAAAAAAAAAAAAAAAA
-				AAAAAADHMZTASCsAAABVTLcEdGVzdAAAAAAAAAAAAAAA
+				AAAAAAGkAAIAAQhIb29EaXNrMQAAAAAAAAAAAAAAAAAA
+				AAAAAADIBiB8SCsAAABVTLcEdGVzdAAAAAAAAAAAAAAA
 				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 				AAAAAAAAAAAAAAAAAAAAAFVM+cir/wsAAAAAAAAAAP//
 				//8AAAkgAAAAAAAAAAAAAAAAAAAADXNwZW5kX3RyYWNr
-				ZXIAABAACAAAxzGUwAAAABEACAAAyKvw+wAAAAEAGABV
-				TLcAIwcDAA3i5AANzlsADWaZAA1jeQACAEJIb29EaXNr
-				MTpVc2VyczpzaG9vbGV5OkRlc2t0b3A6UHJvZ3JhbW1p
-				bmc6UnVieTpzcGVuZF90cmFja2VyOnRlc3QADgAKAAQA
-				dABlAHMAdAAPABIACABIAG8AbwBEAGkAcwBrADEAEgA5
-				VXNlcnMvc2hvb2xleS9EZXNrdG9wL1Byb2dyYW1taW5n
-				L1J1Ynkvc3BlbmRfdHJhY2tlci90ZXN0AAATAAEvAAAV
-				AAIADv//AAA=
+				ZXIAABAACAAAyAYSbAAAABEACAAAyKvw+wAAAAEAHABV
+				TLcAIwcDAA3i5ADAJ74ADc5bAA1mmQANY3kAAgBISG9v
+				RGlzazE6VXNlcnM6c2hvb2xleTpEZXNrdG9wOk9yZ2Fu
+				OlByb2dyYW1taW5nOlJ1Ynk6c3BlbmRfdHJhY2tlcjp0
+				ZXN0AA4ACgAEAHQAZQBzAHQADwASAAgASABvAG8ARABp
+				AHMAawAxABIAP1VzZXJzL3Nob29sZXkvRGVza3RvcC9P
+				cmdhbi9Qcm9ncmFtbWluZy9SdWJ5L3NwZW5kX3RyYWNr
+				ZXIvdGVzdAAAEwABLwAAFQACAA7//wAA
 				</data>
 				<key>FileURL</key>
-				<string>file://localhost/Users/shooley/Desktop/Programming/Ruby/spend_tracker/test/</string>
+				<string>file://localhost/Users/shooley/Desktop/Organ/Programming/Ruby/spend_tracker/test/</string>
 				<key>RelativePath</key>
 				<string>./test</string>
 				<key>TypeID</key>
@@ -336,22 +303,23 @@
 			<dict>
 				<key>AliasData</key>
 				<data>
-				AAAAAAGgAAIAAAhIb29EaXNrMQAAAAAAAAAAAAAAAAAA
-				AAAAAADHMZTASCsAAABVTLcHR2VtZmlsZQAAAAAAAAAA
+				AAAAAAGwAAIAAAhIb29EaXNrMQAAAAAAAAAAAAAAAAAA
+				AAAAAADIBiB8SCsAAABVTLcHR2VtZmlsZQAAAAAAAAAA
 				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-				AAAAAAAAAAAAAAAAAAAAAFVT9cisBTgAAAAAAAAAAP//
+				AAAAAAAAAAAAAAAAAAAAAMCJickZKNBURVhUAAAAAP//
 				//8AAAkgAAAAAAAAAAAAAAAAAAAADXNwZW5kX3RyYWNr
-				ZXIAABAACAAAxzGUwAAAABEACAAAyKv3KAAAAAEAGABV
-				TLcAIwcDAA3i5AANzlsADWaZAA1jeQACAEVIb29EaXNr
-				MTpVc2VyczpzaG9vbGV5OkRlc2t0b3A6UHJvZ3JhbW1p
-				bmc6UnVieTpzcGVuZF90cmFja2VyOkdlbWZpbGUAAA4A
-				EAAHAEcAZQBtAGYAaQBsAGUADwASAAgASABvAG8ARABp
-				AHMAawAxABIAPFVzZXJzL3Nob29sZXkvRGVza3RvcC9Q
-				cm9ncmFtbWluZy9SdWJ5L3NwZW5kX3RyYWNrZXIvR2Vt
-				ZmlsZQATAAEvAAAVAAIADv//AAA=
+				ZXIAABAACAAAyAYSbAAAABEACAAAyRko0AAAAAEAHABV
+				TLcAIwcDAA3i5ADAJ74ADc5bAA1mmQANY3kAAgBLSG9v
+				RGlzazE6VXNlcnM6c2hvb2xleTpEZXNrdG9wOk9yZ2Fu
+				OlByb2dyYW1taW5nOlJ1Ynk6c3BlbmRfdHJhY2tlcjpH
+				ZW1maWxlAAAOABAABwBHAGUAbQBmAGkAbABlAA8AEgAI
+				AEgAbwBvAEQAaQBzAGsAMQASAEJVc2Vycy9zaG9vbGV5
+				L0Rlc2t0b3AvT3JnYW4vUHJvZ3JhbW1pbmcvUnVieS9z
+				cGVuZF90cmFja2VyL0dlbWZpbGUAEwABLwAAFQACAA7/
+				/wAA
 				</data>
 				<key>FileURL</key>
-				<string>file://localhost/Users/shooley/Desktop/Programming/Ruby/spend_tracker/Gemfile</string>
+				<string>file://localhost/Users/shooley/Desktop/Organ/Programming/Ruby/spend_tracker/Gemfile</string>
 				<key>RelativePath</key>
 				<string>./Gemfile</string>
 				<key>TypeID</key>
@@ -370,22 +338,23 @@
 			<dict>
 				<key>AliasData</key>
 				<data>
-				AAAAAAGoAAIAAAhIb29EaXNrMQAAAAAAAAAAAAAAAAAA
-				AAAAAADHMZTASCsAAABVTLcJY29uZmlnLnJ1AAAAAAAA
+				AAAAAAG4AAIAAAhIb29EaXNrMQAAAAAAAAAAAAAAAAAA
+				AAAAAADIBiB8SCsAAABVTLcJY29uZmlnLnJ1AAAAAAAA
 				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 				AAAAAAAAAAAAAAAAAAAAAFVT/MisBTgAAAAAAAAAAP//
 				//8AAAkgAAAAAAAAAAAAAAAAAAAADXNwZW5kX3RyYWNr
-				ZXIAABAACAAAxzGUwAAAABEACAAAyKv3KAAAAAEAGABV
-				TLcAIwcDAA3i5AANzlsADWaZAA1jeQACAEdIb29EaXNr
-				MTpVc2VyczpzaG9vbGV5OkRlc2t0b3A6UHJvZ3JhbW1p
-				bmc6UnVieTpzcGVuZF90cmFja2VyOmNvbmZpZy5ydQAA
-				DgAUAAkAYwBvAG4AZgBpAGcALgByAHUADwASAAgASABv
-				AG8ARABpAHMAawAxABIAPlVzZXJzL3Nob29sZXkvRGVz
-				a3RvcC9Qcm9ncmFtbWluZy9SdWJ5L3NwZW5kX3RyYWNr
-				ZXIvY29uZmlnLnJ1ABMAAS8AABUAAgAO//8AAA==
+				ZXIAABAACAAAyAYSbAAAABEACAAAyKv3KAAAAAEAHABV
+				TLcAIwcDAA3i5ADAJ74ADc5bAA1mmQANY3kAAgBNSG9v
+				RGlzazE6VXNlcnM6c2hvb2xleTpEZXNrdG9wOk9yZ2Fu
+				OlByb2dyYW1taW5nOlJ1Ynk6c3BlbmRfdHJhY2tlcjpj
+				b25maWcucnUAAA4AFAAJAGMAbwBuAGYAaQBnAC4AcgB1
+				AA8AEgAIAEgAbwBvAEQAaQBzAGsAMQASAERVc2Vycy9z
+				aG9vbGV5L0Rlc2t0b3AvT3JnYW4vUHJvZ3JhbW1pbmcv
+				UnVieS9zcGVuZF90cmFja2VyL2NvbmZpZy5ydQATAAEv
+				AAAVAAIADv//AAA=
 				</data>
 				<key>FileURL</key>
-				<string>file://localhost/Users/shooley/Desktop/Programming/Ruby/spend_tracker/config.ru</string>
+				<string>file://localhost/Users/shooley/Desktop/Organ/Programming/Ruby/spend_tracker/config.ru</string>
 				<key>RelativePath</key>
 				<string>./config.ru</string>
 				<key>TypeID</key>
@@ -404,22 +373,22 @@
 			<dict>
 				<key>AliasData</key>
 				<data>
-				AAAAAAGQAAIAAQhIb29EaXNrMQAAAAAAAAAAAAAAAAAA
-				AAAAAADHMZTASCsAAABVTLcDYXBwAAAAAAAAAAAAAAAA
+				AAAAAAGgAAIAAQhIb29EaXNrMQAAAAAAAAAAAAAAAAAA
+				AAAAAADIBiB8SCsAAABVTLcDYXBwAAAAAAAAAAAAAAAA
 				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 				AAAAAAAAAAAAAAAAAAAAAFVMvcir/wsAAAAAAAAAAP//
 				//8AAAkgAAAAAAAAAAAAAAAAAAAADXNwZW5kX3RyYWNr
-				ZXIAABAACAAAxzGUwAAAABEACAAAyKvw+wAAAAEAGABV
-				TLcAIwcDAA3i5AANzlsADWaZAA1jeQACAEFIb29EaXNr
-				MTpVc2VyczpzaG9vbGV5OkRlc2t0b3A6UHJvZ3JhbW1p
-				bmc6UnVieTpzcGVuZF90cmFja2VyOmFwcAAADgAIAAMA
-				YQBwAHAADwASAAgASABvAG8ARABpAHMAawAxABIAOFVz
-				ZXJzL3Nob29sZXkvRGVza3RvcC9Qcm9ncmFtbWluZy9S
-				dWJ5L3NwZW5kX3RyYWNrZXIvYXBwABMAAS8AABUAAgAO
-				//8AAA==
+				ZXIAABAACAAAyAYSbAAAABEACAAAyKvw+wAAAAEAHABV
+				TLcAIwcDAA3i5ADAJ74ADc5bAA1mmQANY3kAAgBHSG9v
+				RGlzazE6VXNlcnM6c2hvb2xleTpEZXNrdG9wOk9yZ2Fu
+				OlByb2dyYW1taW5nOlJ1Ynk6c3BlbmRfdHJhY2tlcjph
+				cHAAAA4ACAADAGEAcABwAA8AEgAIAEgAbwBvAEQAaQBz
+				AGsAMQASAD5Vc2Vycy9zaG9vbGV5L0Rlc2t0b3AvT3Jn
+				YW4vUHJvZ3JhbW1pbmcvUnVieS9zcGVuZF90cmFja2Vy
+				L2FwcAATAAEvAAAVAAIADv//AAA=
 				</data>
 				<key>FileURL</key>
-				<string>file://localhost/Users/shooley/Desktop/Programming/Ruby/spend_tracker/app/</string>
+				<string>file://localhost/Users/shooley/Desktop/Organ/Programming/Ruby/spend_tracker/app/</string>
 				<key>RelativePath</key>
 				<string>./app</string>
 				<key>TypeID</key>
@@ -438,23 +407,24 @@
 			<dict>
 				<key>AliasData</key>
 				<data>
-				AAAAAAHAAAIAAAhIb29EaXNrMQAAAAAAAAAAAAAAAAAA
-				AAAAAADHMZTASCsAAABVTLcPUkVBRE1FLm1hcmtkb3du
+				AAAAAAHQAAIAAAhIb29EaXNrMQAAAAAAAAAAAAAAAAAA
+				AAAAAADIBiB8SCsAAABVTLcPUkVBRE1FLm1hcmtkb3du
 				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-				AAAAAAAAAAAAAAAAAAAAAFVT98isBTgAAAAAAAAAAP//
+				AAAAAAAAAAAAAAAAAAAAAGzWlcisBThURVhUAAAAAP//
 				//8AAAkgAAAAAAAAAAAAAAAAAAAADXNwZW5kX3RyYWNr
-				ZXIAABAACAAAxzGUwAAAABEACAAAyKv3KAAAAAEAGABV
-				TLcAIwcDAA3i5AANzlsADWaZAA1jeQACAE1Ib29EaXNr
-				MTpVc2VyczpzaG9vbGV5OkRlc2t0b3A6UHJvZ3JhbW1p
-				bmc6UnVieTpzcGVuZF90cmFja2VyOlJFQURNRS5tYXJr
-				ZG93bgAADgAgAA8AUgBFAEEARABNAEUALgBtAGEAcgBr
-				AGQAbwB3AG4ADwASAAgASABvAG8ARABpAHMAawAxABIA
-				RFVzZXJzL3Nob29sZXkvRGVza3RvcC9Qcm9ncmFtbWlu
-				Zy9SdWJ5L3NwZW5kX3RyYWNrZXIvUkVBRE1FLm1hcmtk
-				b3duABMAAS8AABUAAgAO//8AAA==
+				ZXIAABAACAAAyAYSbAAAABEACAAAyKv3KAAAAAEAHABV
+				TLcAIwcDAA3i5ADAJ74ADc5bAA1mmQANY3kAAgBTSG9v
+				RGlzazE6VXNlcnM6c2hvb2xleTpEZXNrdG9wOk9yZ2Fu
+				OlByb2dyYW1taW5nOlJ1Ynk6c3BlbmRfdHJhY2tlcjpS
+				RUFETUUubWFya2Rvd24AAA4AIAAPAFIARQBBAEQATQBF
+				AC4AbQBhAHIAawBkAG8AdwBuAA8AEgAIAEgAbwBvAEQA
+				aQBzAGsAMQASAEpVc2Vycy9zaG9vbGV5L0Rlc2t0b3Av
+				T3JnYW4vUHJvZ3JhbW1pbmcvUnVieS9zcGVuZF90cmFj
+				a2VyL1JFQURNRS5tYXJrZG93bgATAAEvAAAVAAIADv//
+				AAA=
 				</data>
 				<key>FileURL</key>
-				<string>file://localhost/Users/shooley/Desktop/Programming/Ruby/spend_tracker/README.markdown</string>
+				<string>file://localhost/Users/shooley/Desktop/Organ/Programming/Ruby/spend_tracker/README.markdown</string>
 				<key>RelativePath</key>
 				<string>./README.markdown</string>
 				<key>TypeID</key>
@@ -473,22 +443,22 @@
 			<dict>
 				<key>AliasData</key>
 				<data>
-				AAAAAAGQAAIAAQhIb29EaXNrMQAAAAAAAAAAAAAAAAAA
-				AAAAAADHMZTASCsAAABVTLcDdG1wAAAAAAAAAAAAAAAA
+				AAAAAAGgAAIAAQhIb29EaXNrMQAAAAAAAAAAAAAAAAAA
+				AAAAAADIBiB8SCsAAABVTLcDdG1wAAAAAAAAAAAAAAAA
 				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 				AAAAAAAAAAAAAAAAAAAAAFVNAcir/wsAAAAAAAAAAP//
 				//8AAAkgAAAAAAAAAAAAAAAAAAAADXNwZW5kX3RyYWNr
-				ZXIAABAACAAAxzGUwAAAABEACAAAyKvw+wAAAAEAGABV
-				TLcAIwcDAA3i5AANzlsADWaZAA1jeQACAEFIb29EaXNr
-				MTpVc2VyczpzaG9vbGV5OkRlc2t0b3A6UHJvZ3JhbW1p
-				bmc6UnVieTpzcGVuZF90cmFja2VyOnRtcAAADgAIAAMA
-				dABtAHAADwASAAgASABvAG8ARABpAHMAawAxABIAOFVz
-				ZXJzL3Nob29sZXkvRGVza3RvcC9Qcm9ncmFtbWluZy9S
-				dWJ5L3NwZW5kX3RyYWNrZXIvdG1wABMAAS8AABUAAgAO
-				//8AAA==
+				ZXIAABAACAAAyAYSbAAAABEACAAAyKvw+wAAAAEAHABV
+				TLcAIwcDAA3i5ADAJ74ADc5bAA1mmQANY3kAAgBHSG9v
+				RGlzazE6VXNlcnM6c2hvb2xleTpEZXNrdG9wOk9yZ2Fu
+				OlByb2dyYW1taW5nOlJ1Ynk6c3BlbmRfdHJhY2tlcjp0
+				bXAAAA4ACAADAHQAbQBwAA8AEgAIAEgAbwBvAEQAaQBz
+				AGsAMQASAD5Vc2Vycy9zaG9vbGV5L0Rlc2t0b3AvT3Jn
+				YW4vUHJvZ3JhbW1pbmcvUnVieS9zcGVuZF90cmFja2Vy
+				L3RtcAATAAEvAAAVAAIADv//AAA=
 				</data>
 				<key>FileURL</key>
-				<string>file://localhost/Users/shooley/Desktop/Programming/Ruby/spend_tracker/tmp/</string>
+				<string>file://localhost/Users/shooley/Desktop/Organ/Programming/Ruby/spend_tracker/tmp/</string>
 				<key>RelativePath</key>
 				<string>./tmp</string>
 				<key>TypeID</key>
@@ -507,22 +477,22 @@
 			<dict>
 				<key>AliasData</key>
 				<data>
-				AAAAAAGQAAIAAQhIb29EaXNrMQAAAAAAAAAAAAAAAAAA
-				AAAAAADHMZTASCsAAABVTLcDbGliAAAAAAAAAAAAAAAA
+				AAAAAAGgAAIAAQhIb29EaXNrMQAAAAAAAAAAAAAAAAAA
+				AAAAAADIBiB8SCsAAABVTLcDbGliAAAAAAAAAAAAAAAA
 				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 				AAAAAAAAAAAAAAAAAAAAAFVM3cir/wsAAAAAAAAAAP//
 				//8AAAkgAAAAAAAAAAAAAAAAAAAADXNwZW5kX3RyYWNr
-				ZXIAABAACAAAxzGUwAAAABEACAAAyKvw+wAAAAEAGABV
-				TLcAIwcDAA3i5AANzlsADWaZAA1jeQACAEFIb29EaXNr
-				MTpVc2VyczpzaG9vbGV5OkRlc2t0b3A6UHJvZ3JhbW1p
-				bmc6UnVieTpzcGVuZF90cmFja2VyOmxpYgAADgAIAAMA
-				bABpAGIADwASAAgASABvAG8ARABpAHMAawAxABIAOFVz
-				ZXJzL3Nob29sZXkvRGVza3RvcC9Qcm9ncmFtbWluZy9S
-				dWJ5L3NwZW5kX3RyYWNrZXIvbGliABMAAS8AABUAAgAO
-				//8AAA==
+				ZXIAABAACAAAyAYSbAAAABEACAAAyKvw+wAAAAEAHABV
+				TLcAIwcDAA3i5ADAJ74ADc5bAA1mmQANY3kAAgBHSG9v
+				RGlzazE6VXNlcnM6c2hvb2xleTpEZXNrdG9wOk9yZ2Fu
+				OlByb2dyYW1taW5nOlJ1Ynk6c3BlbmRfdHJhY2tlcjps
+				aWIAAA4ACAADAGwAaQBiAA8AEgAIAEgAbwBvAEQAaQBz
+				AGsAMQASAD5Vc2Vycy9zaG9vbGV5L0Rlc2t0b3AvT3Jn
+				YW4vUHJvZ3JhbW1pbmcvUnVieS9zcGVuZF90cmFja2Vy
+				L2xpYgATAAEvAAAVAAIADv//AAA=
 				</data>
 				<key>FileURL</key>
-				<string>file://localhost/Users/shooley/Desktop/Programming/Ruby/spend_tracker/lib/</string>
+				<string>file://localhost/Users/shooley/Desktop/Organ/Programming/Ruby/spend_tracker/lib/</string>
 				<key>RelativePath</key>
 				<string>./lib</string>
 				<key>TypeID</key>
@@ -541,22 +511,22 @@
 			<dict>
 				<key>AliasData</key>
 				<data>
-				AAAAAAGcAAIAAQhIb29EaXNrMQAAAAAAAAAAAAAAAAAA
-				AAAAAADHMZTASCsAAABVTLcGc2NyaXB0AAAAAAAAAAAA
+				AAAAAAGsAAIAAQhIb29EaXNrMQAAAAAAAAAAAAAAAAAA
+				AAAAAADIBiB8SCsAAABVTLcGc2NyaXB0AAAAAAAAAAAA
 				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 				AAAAAAAAAAAAAAAAAAAAAFVM98ir/wsAAAAAAAAAAP//
 				//8AAAkgAAAAAAAAAAAAAAAAAAAADXNwZW5kX3RyYWNr
-				ZXIAABAACAAAxzGUwAAAABEACAAAyKvw+wAAAAEAGABV
-				TLcAIwcDAA3i5AANzlsADWaZAA1jeQACAERIb29EaXNr
-				MTpVc2VyczpzaG9vbGV5OkRlc2t0b3A6UHJvZ3JhbW1p
-				bmc6UnVieTpzcGVuZF90cmFja2VyOnNjcmlwdAAOAA4A
-				BgBzAGMAcgBpAHAAdAAPABIACABIAG8AbwBEAGkAcwBr
-				ADEAEgA7VXNlcnMvc2hvb2xleS9EZXNrdG9wL1Byb2dy
-				YW1taW5nL1J1Ynkvc3BlbmRfdHJhY2tlci9zY3JpcHQA
-				ABMAAS8AABUAAgAO//8AAA==
+				ZXIAABAACAAAyAYSbAAAABEACAAAyKvw+wAAAAEAHABV
+				TLcAIwcDAA3i5ADAJ74ADc5bAA1mmQANY3kAAgBKSG9v
+				RGlzazE6VXNlcnM6c2hvb2xleTpEZXNrdG9wOk9yZ2Fu
+				OlByb2dyYW1taW5nOlJ1Ynk6c3BlbmRfdHJhY2tlcjpz
+				Y3JpcHQADgAOAAYAcwBjAHIAaQBwAHQADwASAAgASABv
+				AG8ARABpAHMAawAxABIAQVVzZXJzL3Nob29sZXkvRGVz
+				a3RvcC9Pcmdhbi9Qcm9ncmFtbWluZy9SdWJ5L3NwZW5k
+				X3RyYWNrZXIvc2NyaXB0AAATAAEvAAAVAAIADv//AAA=
 				</data>
 				<key>FileURL</key>
-				<string>file://localhost/Users/shooley/Desktop/Programming/Ruby/spend_tracker/script/</string>
+				<string>file://localhost/Users/shooley/Desktop/Organ/Programming/Ruby/spend_tracker/script/</string>
 				<key>RelativePath</key>
 				<string>./script</string>
 				<key>TypeID</key>
@@ -575,22 +545,22 @@
 			<dict>
 				<key>AliasData</key>
 				<data>
-				AAAAAAGcAAIAAQhIb29EaXNrMQAAAAAAAAAAAAAAAAAA
-				AAAAAADHMZTASCsAAABVTLcGY29uZmlnAAAAAAAAAAAA
+				AAAAAAGsAAIAAQhIb29EaXNrMQAAAAAAAAAAAAAAAAAA
+				AAAAAADIBiB8SCsAAABVTLcGY29uZmlnAAAAAAAAAAAA
 				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 				AAAAAAAAAAAAAAAAAAAAAFVMx8ir/wsAAAAAAAAAAP//
 				//8AAAkgAAAAAAAAAAAAAAAAAAAADXNwZW5kX3RyYWNr
-				ZXIAABAACAAAxzGUwAAAABEACAAAyKvw+wAAAAEAGABV
-				TLcAIwcDAA3i5AANzlsADWaZAA1jeQACAERIb29EaXNr
-				MTpVc2VyczpzaG9vbGV5OkRlc2t0b3A6UHJvZ3JhbW1p
-				bmc6UnVieTpzcGVuZF90cmFja2VyOmNvbmZpZwAOAA4A
-				BgBjAG8AbgBmAGkAZwAPABIACABIAG8AbwBEAGkAcwBr
-				ADEAEgA7VXNlcnMvc2hvb2xleS9EZXNrdG9wL1Byb2dy
-				YW1taW5nL1J1Ynkvc3BlbmRfdHJhY2tlci9jb25maWcA
-				ABMAAS8AABUAAgAO//8AAA==
+				ZXIAABAACAAAyAYSbAAAABEACAAAyKvw+wAAAAEAHABV
+				TLcAIwcDAA3i5ADAJ74ADc5bAA1mmQANY3kAAgBKSG9v
+				RGlzazE6VXNlcnM6c2hvb2xleTpEZXNrdG9wOk9yZ2Fu
+				OlByb2dyYW1taW5nOlJ1Ynk6c3BlbmRfdHJhY2tlcjpj
+				b25maWcADgAOAAYAYwBvAG4AZgBpAGcADwASAAgASABv
+				AG8ARABpAHMAawAxABIAQVVzZXJzL3Nob29sZXkvRGVz
+				a3RvcC9Pcmdhbi9Qcm9ncmFtbWluZy9SdWJ5L3NwZW5k
+				X3RyYWNrZXIvY29uZmlnAAATAAEvAAAVAAIADv//AAA=
 				</data>
 				<key>FileURL</key>
-				<string>file://localhost/Users/shooley/Desktop/Programming/Ruby/spend_tracker/config/</string>
+				<string>file://localhost/Users/shooley/Desktop/Organ/Programming/Ruby/spend_tracker/config/</string>
 				<key>RelativePath</key>
 				<string>./config</string>
 				<key>TypeID</key>
@@ -609,23 +579,23 @@
 			<dict>
 				<key>AliasData</key>
 				<data>
-				AAAAAAG0AAIAAAhIb29EaXNrMQAAAAAAAAAAAAAAAAAA
-				AAAAAADHMZTASCsAAABVTLcMR2VtZmlsZS5sb2NrAAAA
+				AAAAAAHEAAIAAAhIb29EaXNrMQAAAAAAAAAAAAAAAAAA
+				AAAAAADIBiB8SCsAAABVTLcMR2VtZmlsZS5sb2NrAAAA
 				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-				AAAAAAAAAAAAAAAAAAAAAFVT9sisBTgAAAAAAAAAAP//
+				AAAAAAAAAAAAAAAAAAAAAL5W9ckZKNAAAAAAAAAAAP//
 				//8AAAkgAAAAAAAAAAAAAAAAAAAADXNwZW5kX3RyYWNr
-				ZXIAABAACAAAxzGUwAAAABEACAAAyKv3KAAAAAEAGABV
-				TLcAIwcDAA3i5AANzlsADWaZAA1jeQACAEpIb29EaXNr
-				MTpVc2VyczpzaG9vbGV5OkRlc2t0b3A6UHJvZ3JhbW1p
-				bmc6UnVieTpzcGVuZF90cmFja2VyOkdlbWZpbGUubG9j
-				awAOABoADABHAGUAbQBmAGkAbABlAC4AbABvAGMAawAP
-				ABIACABIAG8AbwBEAGkAcwBrADEAEgBBVXNlcnMvc2hv
-				b2xleS9EZXNrdG9wL1Byb2dyYW1taW5nL1J1Ynkvc3Bl
-				bmRfdHJhY2tlci9HZW1maWxlLmxvY2sAABMAAS8AABUA
-				AgAO//8AAA==
+				ZXIAABAACAAAyAYSbAAAABEACAAAyRko0AAAAAEAHABV
+				TLcAIwcDAA3i5ADAJ74ADc5bAA1mmQANY3kAAgBQSG9v
+				RGlzazE6VXNlcnM6c2hvb2xleTpEZXNrdG9wOk9yZ2Fu
+				OlByb2dyYW1taW5nOlJ1Ynk6c3BlbmRfdHJhY2tlcjpH
+				ZW1maWxlLmxvY2sADgAaAAwARwBlAG0AZgBpAGwAZQAu
+				AGwAbwBjAGsADwASAAgASABvAG8ARABpAHMAawAxABIA
+				R1VzZXJzL3Nob29sZXkvRGVza3RvcC9Pcmdhbi9Qcm9n
+				cmFtbWluZy9SdWJ5L3NwZW5kX3RyYWNrZXIvR2VtZmls
+				ZS5sb2NrAAATAAEvAAAVAAIADv//AAA=
 				</data>
 				<key>FileURL</key>
-				<string>file://localhost/Users/shooley/Desktop/Programming/Ruby/spend_tracker/Gemfile.lock</string>
+				<string>file://localhost/Users/shooley/Desktop/Organ/Programming/Ruby/spend_tracker/Gemfile.lock</string>
 				<key>RelativePath</key>
 				<string>./Gemfile.lock</string>
 				<key>TypeID</key>
