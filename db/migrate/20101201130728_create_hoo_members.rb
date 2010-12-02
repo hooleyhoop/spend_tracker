@@ -1,14 +1,13 @@
-class CreateMembers < ActiveRecord::Migration
+class CreateHooMembers < ActiveRecord::Migration
   def self.up
-    create_table :members do |t|
+    create_table :hoo_members do |t|
       t.string :name
       t.string :email
-
       t.timestamps
     end
   end
 
   def self.down
-    drop_table :members
+    drop_table :hoo_members
   end
 end

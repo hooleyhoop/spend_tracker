@@ -1,12 +1,12 @@
-class CreateGroups < ActiveRecord::Migration
+class CreateHooGroups < ActiveRecord::Migration
   def self.up
-    create_table :groups do |t|
+    create_table :hoo_groups do |t|
       t.string :name
       t.timestamps
     end
   end
 
   def self.down
-    drop_table :groups
+    drop_table :hoo_groups
   end
 end
