@@ -1,11 +1,13 @@
 require 'spec_helper'
 
-describe GroupMembership do
+include Domain
+
+describe HooGroupMembership do
 
 	it "should not be a big ball of shit" do
 
 		fred.resellers.size #=>2
-		grMem = GroupMembership.create( :farmer=>fred, :reseller=?sallysstore )
+		grMem = HooGroupMembership.create( :farmer=>fred, :reseller=?sallysstore )
 		fred.resellers.size #=>3
 
 	end
