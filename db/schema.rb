@@ -12,21 +12,21 @@
 
 ActiveRecord::Schema.define(:version => 20101202144715) do
 
-  create_table "group_memberships", :force => true do |t|
-    t.integer  "group_id"
-    t.integer  "member_id"
+  create_table "hoo_group_memberships", :force => true do |t|
+    t.integer  "hoo_group_id"
+    t.integer  "hoo_member_id"
     t.string   "instrument"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  create_table "groups", :force => true do |t|
+  create_table "hoo_groups", :force => true do |t|
     t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  create_table "members", :force => true do |t|
+  create_table "hoo_members", :force => true do |t|
     t.string   "name"
     t.string   "email"
     t.datetime "created_at"

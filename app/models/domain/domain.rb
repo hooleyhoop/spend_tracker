@@ -1,7 +1,7 @@
 
 module Domain
-class Domain < ActiveRecord::Base
+	class Domain < ActiveRecord::Base
 
-	attributes_protected_by_default();
-end
+		attributes_protected_by_default();
+	end
 end

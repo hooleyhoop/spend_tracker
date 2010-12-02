@@ -10,11 +10,12 @@
 #  created_at :datetime
 #  updated_at :datetime
 #
+module Domain
+	class HooGroupMembership < ActiveRecord::Base
 
-class GroupMembership < ActiveRecord::Base
+		attributes_protected_by_default();
 
-	attributes_protected_by_default();
-
-	belongs_to	:group
-	belongs_to	:member
+		belongs_to	:hoo_group
+		belongs_to	:hoo_member
+	end
 end
