@@ -5,6 +5,8 @@ class CreateHooMembers < ActiveRecord::Migration
       t.string :email
       t.timestamps
     end
+    # we must make sure that email is unique
+    add_index :hoo_members, :email, :unique=>true
   end
 
   def self.down

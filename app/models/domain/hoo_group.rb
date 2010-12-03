@@ -13,20 +13,20 @@ module Domain
 
 		attributes_protected_by_default();
 
-		has_many :hooGroupMemberships
-		has_many :members, :through => :groupMemberships
+		has_many :hoo_group_memberships
+		has_many :hoo_members, :through => :hoo_group_memberships
 
 	protected
 
-		def validate
-			errors.add(":Account_Name", "You must supply an account name")
-		end
+	#	def validate
+			#errors.add(":Account_Name", "You must supply an account name")
+	#	end
 
-		def validate_on_create
-		end
+	#	def validate_on_create
+	#	end
 
-		def validate_on_update
-		end
+	#	def validate_on_update
+	#	end
 
 	private
 
