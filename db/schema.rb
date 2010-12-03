@@ -12,13 +12,16 @@
 
 ActiveRecord::Schema.define(:version => 20101202144715) do
 
-  create_table "hoo_group_memberships", :force => true do |t|
+  create_table "hoo_group_memberships", :id => false, :force => true do |t|
     t.integer  "hoo_group_id"
     t.integer  "hoo_member_id"
     t.string   "instrument"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  add_index "hoo_group_memberships", ["hoo_group_id", "hoo_member_id"], :name => "index_hoo_group_memberships_on_hoo_group_id_and_hoo_member_id"
+  add_index "hoo_group_memberships", ["hoo_member_id"], :name => "index_hoo_group_memberships_on_hoo_member_id"
 
   create_table "hoo_groups", :force => true do |t|
     t.string   "name"

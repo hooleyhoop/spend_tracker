@@ -4,7 +4,8 @@ gem 'rails', '3.0.3'
 gem 'mongrel', '1.2.0.pre2'
 gem 'jquery-rails'
 gem 'haml'
-gem 'sqlite3-ruby', :require => 'sqlite3'
+#gem 'sqlite3-ruby', :require => 'sqlite3'
+gem 'mysql'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
