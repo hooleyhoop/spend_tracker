@@ -80,3 +80,5 @@ end
 
 # HERE!
 # http://railstutorial.org/chapters/modeling-and-viewing-users-one#top
+
+hjere http://blog.mhartl.com/2008/06/26/working-around-the-validates_uniqueness_of-bug-in-ruby-on-rails/
