@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-include Domain
+include Infrastructure
 
 describe HooGroupMembership do
 

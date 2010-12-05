@@ -11,5 +11,6 @@ class CreateHooMembers < ActiveRecord::Migration
 
   def self.down
     drop_table :hoo_members
+	remove_index :hoo_members, :email
   end
 end

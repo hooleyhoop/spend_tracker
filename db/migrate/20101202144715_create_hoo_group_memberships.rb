@@ -16,5 +16,8 @@ class CreateHooGroupMemberships < ActiveRecord::Migration
 
   def self.down
     drop_table :hoo_group_memberships
+    
+    # ?? remove_index :hoo_members, :email
+
   end
 end

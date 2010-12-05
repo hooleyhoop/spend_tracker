@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-include Domain
+include Infrastructure
 
 describe HooMember do
 
@@ -28,6 +28,8 @@ describe HooMember do
 		addresses.each do |address|
 			valid_email_user = HooMember.new( :name=>'ace', :email=>address )
 			valid_email_user.should be_valid
+			result = valid_email_user.botchedSaveUniqueProperties();
+			result.should == true;
 		end
 	end
 
@@ -35,16 +37,20 @@ describe HooMember do
 		addresses = %w[user@foo,com user_at_foo.org example.user@foo.]
 		addresses.each do |address|
 			invalid_email_user = HooMember.new( :name=>'ace', :email=>address )
-			invalid_email_user.should_not be_valid
+			invalid_email_user.should_not be_valid		
 		end
 	end
 
 	it "should reject duplicate email addresses" do
 	# Put a user with given email address into the database.
-	    attr = { :name=>"Example User", :email=>"user@example.com" }
-		HooMember.create!( attr )
+	    attr = { :name=>'Example User', :email=>'user@example.com' }
+		HooMember.create!( attr );
+		
+		# NB. You dont know if it has worked until you have saved
 		user_with_duplicate_email = HooMember.new( attr )
-		user_with_duplicate_email.should_not be_valid
+		user_with_duplicate_email.should_not be_valid;
+		result = user_with_duplicate_email.botchedSaveUniqueProperties()
+		result.should == false;
 	end
 
 	it "should reject email addresses identical up to case" do
@@ -52,8 +58,36 @@ describe HooMember do
 		upcased_email = attr[:email].upcase
 		HooMember.create!( attr.merge(:email=>upcased_email) )
 		user_with_duplicate_email = HooMember.new( attr )
-		user_with_duplicate_email.should_not be_valid
+		#user_with_duplicate_email.should_not be_valid
+		result = user_with_duplicate_email.botchedSaveUniqueProperties()
+		result.should == false;
 	end
+
+	# http://blog.mhartl.com/2008/06/26/working-around-the-validates_uniqueness_of-bug-in-ruby-on-rails/
+	it "should prevent duplicate emails" do
+		attr = { :name=>"Example User", :email=>"user@example.com" }
+		person = HooMember.new( attr )
+		person.save
+		duplicate = HooMember.new( attr )
+
+		lambda do
+			# Pass 'false' to 'save' in order to skip the validations.
+			duplicate.save( :validate=>false )
+		end.should raise_error(ActiveRecord::StatementInvalid)
+	end
+
+	it "should find using email" do
+	    attr = { :name=>"Example User", :email=>"user@example.com" }
+		HooMember.create!( attr );
+		foundMember = HooMember['user@example.com']
+		foundMember.should_not be_nil
+	end
+	
+	it 'should use custom accessors' do
+		aMember = HooMember.new()
+		aMember.name = 'steve'
+	end
+	
 
 	it "should not be a big ball of shit" do
 
@@ -80,5 +114,3 @@ end
 
 # HERE!
 # http://railstutorial.org/chapters/modeling-and-viewing-users-one#top
-
-hjere http://blog.mhartl.com/2008/06/26/working-around-the-validates_uniqueness_of-bug-in-ruby-on-rails/

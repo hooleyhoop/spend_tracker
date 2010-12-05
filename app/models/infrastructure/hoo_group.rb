@@ -8,7 +8,7 @@
 #  created_at :datetime
 #  updated_at :datetime
 #
-module Domain
+module Infrastructure
 	class HooGroup < ActiveRecord::Base
 
 		attributes_protected_by_default();

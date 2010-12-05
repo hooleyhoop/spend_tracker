@@ -36,6 +36,8 @@ ActiveRecord::Schema.define(:version => 20101202144715) do
     t.datetime "updated_at"
   end
 
+  add_index "hoo_members", ["email"], :name => "index_hoo_members_on_email", :unique => true
+
   create_table "microposts", :force => true do |t|
     t.string   "content"
     t.integer  "user_id"
