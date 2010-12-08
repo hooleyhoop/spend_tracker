@@ -1,5 +1,7 @@
 require 'spec_helper'
 
+include DemoApp
+
 describe User do
 
   before(:each) do

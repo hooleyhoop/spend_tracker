@@ -12,6 +12,7 @@
 #  salt               :string(255)
 #  admin              :boolean
 #
+module DemoApp
 
 class User < ActiveRecord::Base
 
@@ -104,4 +105,5 @@ class User < ActiveRecord::Base
       Digest::SHA2.hexdigest(string)
     end
 
+end
 end

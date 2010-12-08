@@ -29,7 +29,7 @@ module SessionsHelper
   private
 
 		def user_from_remember_token
-			User.authenticate_with_salt(*remember_token)
+			DemoApp::User.authenticate_with_salt(*remember_token)
 		end
 
 		def remember_token
@@ -42,14 +42,14 @@ module SessionsHelper
 
 		def deny_access
 			store_location
-			redirect_to signin_path, :notice => "Please sign in to access this page."
+			redirect_to( demo_app_signin_path, :notice => "Please sign in to access this page." )
 		end
 
 		def store_location
 			session[:return_to] = request.fullpath
 		end
 
-		def redirect_back_or(default)
+		def redirect_back_or( default )
 			redirect_to(session[:return_to] || default)
 			clear_return_to
 		end

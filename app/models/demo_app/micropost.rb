@@ -9,6 +9,7 @@
 #  created_at :datetime
 #  updated_at :datetime
 #
+module DemoApp
 
 class Micropost < ActiveRecord::Base
   attr_accessible :content
@@ -32,4 +33,5 @@ class Micropost < ActiveRecord::Base
       where("user_id IN (#{followed_ids}) OR user_id = :user_id", { :user_id => user })
     end
 
+end
 end

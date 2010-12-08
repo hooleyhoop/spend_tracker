@@ -1,5 +1,7 @@
 require 'spec_helper'
 
+include DemoApp
+
 describe UsersController do
 	render_views
 
@@ -8,7 +10,7 @@ describe UsersController do
     describe "for non-signed-in users" do
       it "should deny access" do
         get :index
-        response.should redirect_to(signin_path)
+        response.should redirect_to(demo_app_signin_path)
         flash[:notice].should =~ /sign in/i
       end
     end

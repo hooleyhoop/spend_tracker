@@ -10,9 +10,9 @@
       <% end %>
       <li><%= link_to "Help", help_path %></li>
       <% if signed_in? %>
-      <li><%= link_to "Sign out", signout_path, :method => :delete %></li>
+      <li><%= link_to "Sign out", demo_app_signout_path, :method => :delete %></li>
       <% else %>
-      <li><%= link_to "Sign in", signin_path %></li>
+      <li><%= link_to "Sign in", demo_app_signin_path %></li>
       <% end %>
     </ul>
   </nav>

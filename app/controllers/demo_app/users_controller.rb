@@ -1,4 +1,7 @@
+module DemoApp
+
 class UsersController < ApplicationController
+
   before_filter :authenticate, :except => [:show, :new, :create]
   before_filter :correct_user, :only => [:edit, :update]
   before_filter :admin_user,   :only => :destroy
@@ -22,7 +25,7 @@ class UsersController < ApplicationController
   def create
     @user = User.new(params[:user])
     if @user.save
-      sign_in @user
+      sign_in( @user )
       flash[:success] = "Welcome to the Sample App!"
       redirect_to @user
     else
@@ -77,4 +80,5 @@ class UsersController < ApplicationController
       redirect_to(root_path) unless current_user.admin?
     end
 
+end
 end
