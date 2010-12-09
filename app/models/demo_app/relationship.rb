@@ -9,6 +9,7 @@
 #  created_at  :datetime
 #  updated_at  :datetime
 #
+module DemoApp
 
 class Relationship < ActiveRecord::Base
 
@@ -20,4 +21,5 @@ class Relationship < ActiveRecord::Base
   validates :follower_id, :presence => true
   validates :followed_id, :presence => true
 
+end
 end

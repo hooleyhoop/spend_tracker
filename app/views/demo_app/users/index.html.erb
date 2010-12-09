@@ -3,7 +3,8 @@
 <%= will_paginate %>
 
 <ul class="users">
-  <%= render @users %>
+  <%= render( :collection=>@users, :partial=>'user' ) %>
 </ul>
 
 <%= will_paginate %>
+

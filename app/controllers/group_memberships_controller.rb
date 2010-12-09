@@ -1,3 +1,4 @@
+
 class GroupMembershipsController < ApplicationController
   # GET /group_memberships
   # GET /group_memberships.xml

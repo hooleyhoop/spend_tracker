@@ -1,3 +1,5 @@
+module DemoApp
+
 class SessionsController < ApplicationController
 
 # handles sign in
@@ -23,4 +25,5 @@ class SessionsController < ApplicationController
     redirect_to root_path
   end
 
+end
 end

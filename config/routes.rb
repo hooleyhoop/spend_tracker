@@ -1,34 +1,36 @@
 SpendTracker::Application.routes.draw do
 
-  resources :group_memberships
+	resources :group_memberships
+	resources :groups
+	resources :members
 
-  resources :groups
+	namespace :demo_app do
 
-  resources :members
+		resources :users do
+			member do
+				#/users/1/following following_user_path(1)
+				#/users/1/followers followers_user_path(1)
+				get :following, :followers
+			end
+		end
 
-  resources :users
-  resources :sessions, :only => [:new, :create, :destroy]
-  resources :microposts, :only => [:create, :destroy]
-  resources :relationships, :only => [:create, :destroy]
+		resources :sessions, :only => [:new, :create, :destroy]
+ 		resources :microposts, :only => [:create, :destroy]
+ 		resources :relationships, :only => [:create, :destroy]
 
-  match '/signup',  :to => 'users#new'
-  match '/signin',  :to => 'sessions#new'
-  match '/signout', :to => 'sessions#destroy'
 
-  match '/contact', :to => 'static_pages#contact'
-  match '/about',   :to => 'static_pages#about'
-  match '/help',    :to => 'static_pages#help'
 
-  #/users/1/following     following_user_path(1)
-  #/users/1/followers		followers_user_path(1)
-  resources :users do
-    member do
-      get :following, :followers
-    end
-  end
+		match '/signup',  :to => 'users#new'
+		match '/signin',  :to => 'sessions#new'
+		match '/signout', :to => 'sessions#destroy'
+	end
 
-  # BEGIN SPENDTRACKER
-  resources :family
+	match '/contact', :to => 'static_pages#contact'
+	match '/about',   :to => 'static_pages#about'
+	match '/help',    :to => 'static_pages#help'
+
+	# BEGIN SPENDTRACKER
+	resources :family
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

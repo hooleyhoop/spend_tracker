@@ -1,28 +1,31 @@
+module DemoApp
+
 class UsersController < ApplicationController
-  before_filter :authenticate, :except => [:show, :new, :create]
-  before_filter :correct_user, :only => [:edit, :update]
-  before_filter :admin_user,   :only => :destroy
 
-  def index
-    @title = "All users"
-    @users = User.paginate(:page => params[:page])
-  end
+	before_filter :authenticate, :except => [:show, :new, :create]
+	before_filter :correct_user, :only => [:edit, :update]
+	before_filter :admin_user,   :only => :destroy
 
-  def show
-    @user = User.find(params[:id])
-    @microposts = @user.microposts.paginate(:page => params[:page])
-    @title = @user.name
-  end
+	def index
+		@title = "All users"
+		@users = User.paginate(:page => params[:page])
+	end
 
-  def new
-	    @user = User.new
-      @title = "Sign up"
-  end
+	def show
+		@user = User.find(params[:id])
+		@microposts = @user.microposts.paginate(:page => params[:page])
+		@title = @user.name
+	end
+
+	def new
+		@user = User.new
+		@title = "Sign up"
+	end
 
   def create
     @user = User.new(params[:user])
     if @user.save
-      sign_in @user
+      sign_in( @user )
       flash[:success] = "Welcome to the Sample App!"
       redirect_to @user
     else
@@ -46,18 +49,18 @@ class UsersController < ApplicationController
     end
   end
 
-  def destroy
-    User.find(params[:id]).destroy
-    flash[:success] = "User destroyed."
-    redirect_to users_path
-  end
+	def destroy
+		User.find(params[:id]).destroy
+		flash[:success] = "User destroyed."
+		redirect_to( demo_app_users_path )
+	end
 
- def following
-    @title = "Following"
-    @user = User.find(params[:id])
-    @users = @user.following.paginate(:page => params[:page])
-    render 'show_follow'
-  end
+	def following
+		@title = "Following"
+		@user = User.find(params[:id])
+		@users = @user.following.paginate( :page => params[:page] )
+		render( 'show_follow' )
+	end
 
   def followers
     @title = "Followers"
@@ -77,4 +80,5 @@ class UsersController < ApplicationController
       redirect_to(root_path) unless current_user.admin?
     end
 
+end
 end

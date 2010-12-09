@@ -1,30 +1,33 @@
 require 'spec_helper'
 
+include DemoApp
+
 describe UsersController do
-	render_views
+
+	render_views();
 
 	describe "GET 'index'" do
 
-    describe "for non-signed-in users" do
-      it "should deny access" do
-        get :index
-        response.should redirect_to(signin_path)
-        flash[:notice].should =~ /sign in/i
-      end
-    end
+		describe "for non-signed-in users" do
+			it "should deny access" do
+				get :index
+				response.should redirect_to( demo_app_signin_path )
+				flash[:notice].should =~ /sign in/i
+			end
+		end
 
-    describe "for signed-in users" do
+		describe "for signed-in users" do
 
-      before(:each) do
-        @user = test_sign_in(Factory(:user))
-        second = Factory(:user, :email => "another@example.com")
-        third  = Factory(:user, :email => "another@example.net")
+			before(:each) do
+			@user = test_sign_in(Factory(:user))
+			second = Factory(:user, :email => "another@example.com")
+			third  = Factory(:user, :email => "another@example.net")
 
-        @users = [@user, second, third]
-        30.times do
-          @users << Factory(:user, :email => Factory.next(:email))
-        end
-      end
+			@users = [@user, second, third]
+			30.times do
+			@users << Factory(:user, :email => Factory.next(:email))
+			end
+			end
 
       it "should be successful" do
         get :index
@@ -43,15 +46,13 @@ describe UsersController do
         end
       end
 
-      it "should paginate users" do
-        get :index
-        response.should have_selector("div.pagination")
-        response.should have_selector("span.disabled", :content => "Previous")
-        response.should have_selector("a", :href => "/users?page=2",
-                                           :content => "2")
-        response.should have_selector("a", :href => "/users?page=2",
-                                           :content => "Next")
-      end
+		it "should paginate users" do
+			get :index
+			response.should have_selector("div.pagination")
+			response.should have_selector("span.disabled", :content => "Previous")
+			response.should have_selector("a", :href => "/demo_app/users?page=2", :content => "2")
+			response.should have_selector("a", :href => "/demo_app/users?page=2", :content => "Next")
+		end
 
     end
   end
@@ -163,7 +164,7 @@ describe UsersController do
 
       it "should redirect to the user show page" do
         post :create, :user => @attr
-        response.should redirect_to(user_path(assigns(:user)))
+        response.should redirect_to( demo_app_user_path(assigns(:user)) )
       end
 
       it "should have a welcome message" do
@@ -241,7 +242,7 @@ describe UsersController do
 
       it "should redirect to the user show page" do
         put :update, :id => @user, :user => @attr
-        response.should redirect_to(user_path(@user))
+        response.should redirect_to( demo_app_user_path(@user) )
       end
 
       it "should have a flash message" do
@@ -261,12 +262,12 @@ describe UsersController do
 
       it "should deny access to 'edit'" do
         get :edit, :id => @user
-        response.should redirect_to(signin_path)
+        response.should redirect_to( demo_app_signin_path )
       end
 
       it "should deny access to 'update'" do
         put :update, :id => @user, :user => {}
-        response.should redirect_to(signin_path)
+        response.should redirect_to( demo_app_signin_path )
       end
     end
 
@@ -279,12 +280,12 @@ describe UsersController do
 
       it "should require matching users for 'edit'" do
         get :edit, :id => @user
-        response.should redirect_to(root_path)
+        response.should redirect_to( root_path )
       end
 
       it "should require matching users for 'update'" do
         put :update, :id => @user, :user => {}
-        response.should redirect_to(root_path)
+        response.should redirect_to( root_path )
       end
     end
 
@@ -299,7 +300,7 @@ describe UsersController do
     describe "as a non-signed-in user" do
       it "should deny access" do
         delete :destroy, :id => @user
-        response.should redirect_to(signin_path)
+        response.should redirect_to( demo_app_signin_path )
       end
     end
 
@@ -307,7 +308,7 @@ describe UsersController do
       it "should protect the page" do
         test_sign_in(@user)
         delete :destroy, :id => @user
-        response.should redirect_to(root_path)
+        response.should redirect_to( root_path )
       end
     end
 
@@ -326,46 +327,45 @@ describe UsersController do
 
       it "should redirect to the users page" do
         delete :destroy, :id => @user
-        response.should redirect_to(users_path)
+        response.should redirect_to( demo_app_users_path )
       end
     end
   end
 
-  describe "follow pages" do
 
-    describe "when not signed in" do
+	describe "follow pages" do
 
-      it "should protect 'following'" do
-        get :following, :id => 1
-        response.should redirect_to(signin_path)
-      end
+		describe "when not signed in" do
+			it "should protect 'following'" do
+				get( :following, :id=>1 )
+				response.should redirect_to( demo_app_signin_path )
+			end
 
-      it "should protect 'followers'" do
-        get :followers, :id => 1
-        response.should redirect_to(signin_path)
-      end
-    end
+			it "should protect 'followers'" do
+				get( :followers, :id=>1 )
+				response.should redirect_to( demo_app_signin_path )
+			end
+		end
 
-    describe "when signed in" do
+		describe "when signed in" do
 
-      before(:each) do
-        @user = test_sign_in(Factory(:user))
-        @other_user = Factory(:user, :email => Factory.next(:email))
-        @user.follow!(@other_user)
-      end
+			before(:each) do
+				@user = test_sign_in(Factory(:user))
+				@other_user = Factory( :user, :email => Factory.next(:email) )
+				@user.follow!( @other_user )
+			end
 
-      it "should show user following" do
-        get :following, :id => @user
-        response.should have_selector("a", :href => user_path(@other_user),
-                                           :content => @other_user.name)
-      end
+			it "should show user following" do
+				get( :following, :id => @user )
+				response.should have_selector( "a", :href => demo_app_user_path(@other_user), :content=>@other_user.name )
+			end
 
-      it "should show user followers" do
-        get :followers, :id => @other_user
-        response.should have_selector("a", :href => user_path(@user),
-                                           :content => @user.name)
-      end
-    end
-  end
+			it "should show user followers" do
+				get( :followers, :id => @other_user )
+				response.should have_selector("a", :href => demo_app_user_path(@user), :content => @user.name)
+			end
+		end
+
+	end
 
 end
