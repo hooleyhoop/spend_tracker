@@ -1,5 +1,8 @@
 #require 'rubygems'
 #require 'spork'
+require 'webrat'
+require 'webrat/core/matchers'
+
 # Spork doesnt seem to work on rails 3
 #Spork.prefork do
   # Loading more in this block will cause your tests to run faster. However,
@@ -18,6 +21,8 @@
 	#Dir[Rails.root.join("spec/support/**/*.rb")].each {|f| require f}
 
 	RSpec.configure do |config|
+        config.include Rack::Test::Methods
+
     # == Mock Framework
     #
     # If you prefer to use mocha, flexmock or RR, uncomment the appropriate line:
@@ -33,6 +38,11 @@
     # examples within a transaction, comment the following line or assign false
     # instead of true.
     config.use_transactional_fixtures = true
+
+    Webrat.configure do |config|
+        config.mode = :rack
+        config.open_error_files = false # Set to true if you want error pages to pop up in the browser
+    end
 
     ### Part of a Spork hack. See http://bit.ly/arY19y
     # Emulate initializer set_clear_dependencies_hook in

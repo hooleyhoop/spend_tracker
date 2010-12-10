@@ -1,3 +1,5 @@
+module DemoApp
+
 class MicropostsController < ApplicationController
 
   before_filter :authenticate, :only => [:create, :destroy]
@@ -84,4 +86,5 @@ class MicropostsController < ApplicationController
       redirect_to root_path unless current_user?(@micropost.user)
     end
 
+end
 end
