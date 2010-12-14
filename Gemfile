@@ -32,6 +32,8 @@ gem 'linecache19'
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:
 
+gem "gui"
+
 group :development do
 	gem 'annotate-models', '1.0.4'
 	gem 'faker'
